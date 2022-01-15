@@ -1,0 +1,312 @@
+[
+  {
+    "Type": "Mint",
+    "dependencies": [
+      "writer_Mint",
+      "writer_Mint"
+    ]
+  },
+  {
+    "Type": "Modint",
+    "dependencies": [
+      "writer_Modint",
+      "writer_Modint"
+    ]
+  },
+  {
+    "Type": "__int128_t",
+    "dependencies": [
+      "writer_int",
+      "writer_ll",
+      "writer_int128",
+      "writer_int",
+      "writer_ll",
+      "writer_int128"
+    ]
+  },
+  {
+    "Type": "__int16_t",
+    "dependencies": [
+      "writer_int",
+      "writer_ll",
+      "writer_int128",
+      "writer_int",
+      "writer_ll",
+      "writer_int128"
+    ]
+  },
+  {
+    "Type": "__int32_t",
+    "dependencies": [
+      "writer_int",
+      "writer_ll",
+      "writer_int128",
+      "writer_int",
+      "writer_ll",
+      "writer_int128"
+    ]
+  },
+  {
+    "Type": "__int64_t",
+    "dependencies": [
+      "writer_int",
+      "writer_ll",
+      "writer_int128",
+      "writer_int",
+      "writer_ll",
+      "writer_int128"
+    ]
+  },
+  {
+    "Type": "__int8_t",
+    "dependencies": [
+      "writer_int",
+      "writer_ll",
+      "writer_int128",
+      "writer_int",
+      "writer_ll",
+      "writer_int128"
+    ]
+  },
+  {
+    "Type": "__uint128_t",
+    "dependencies": [
+      "writer_unsigned",
+      "writer_ull",
+      "writer_uint128",
+      "writer_unsigned",
+      "writer_ull",
+      "writer_uint128"
+    ]
+  },
+  {
+    "Type": "__uint16_t",
+    "dependencies": [
+      "writer_unsigned",
+      "writer_ull",
+      "writer_uint128",
+      "writer_unsigned",
+      "writer_ull",
+      "writer_uint128"
+    ]
+  },
+  {
+    "Type": "__uint32_t",
+    "dependencies": [
+      "writer_unsigned",
+      "writer_ull",
+      "writer_uint128",
+      "writer_unsigned",
+      "writer_ull",
+      "writer_uint128"
+    ]
+  },
+  {
+    "Type": "__uint64_t",
+    "dependencies": [
+      "writer_unsigned",
+      "writer_ull",
+      "writer_uint128",
+      "writer_unsigned",
+      "writer_ull",
+      "writer_uint128"
+    ]
+  },
+  {
+    "Type": "__uint8_t",
+    "dependencies": [
+      "writer_unsigned",
+      "writer_ull",
+      "writer_uint128",
+      "writer_unsigned",
+      "writer_ull",
+      "writer_uint128"
+    ]
+  },
+  {
+    "Type": "char",
+    "dependencies": [
+      "writer_char_array",
+      "writer_char_array"
+    ]
+  },
+  {
+    "Type": "double",
+    "dependencies": [
+      "writer_double",
+      "writer_double"
+    ]
+  },
+  {
+    "Type": "int",
+    "dependencies": [
+      "writer_int",
+      "writer_int_withBase"
+    ]
+  },
+  {
+    "Type": "int16_t",
+    "dependencies": [
+      "writer_int",
+      "writer_ll",
+      "writer_int128",
+      "writer_int",
+      "writer_ll",
+      "writer_int128"
+    ]
+  },
+  {
+    "Type": "int32_t",
+    "dependencies": [
+      "writer_int",
+      "writer_ll",
+      "writer_int128",
+      "writer_int",
+      "writer_ll",
+      "writer_int128"
+    ]
+  },
+  {
+    "Type": "int64_t",
+    "dependencies": [
+      "writer_int",
+      "writer_ll",
+      "writer_int128",
+      "writer_int",
+      "writer_ll",
+      "writer_int128"
+    ]
+  },
+  {
+    "Type": "int8_t",
+    "dependencies": [
+      "writer_int",
+      "writer_ll",
+      "writer_int128",
+      "writer_int",
+      "writer_ll",
+      "writer_int128"
+    ]
+  },
+  {
+    "Type": "long long",
+    "dependencies": [
+      "writer_ll",
+      "writer_ll_withBase"
+    ]
+  },
+  {
+    "Type": "mint",
+    "dependencies": [
+      "writer_mint",
+      "writer_mint"
+    ]
+  },
+  {
+    "Type": "modint",
+    "dependencies": [
+      "writer_modint",
+      "writer_modint"
+    ]
+  },
+  {
+    "Type": "signed",
+    "dependencies": [
+      "writer_int",
+      "writer_int_withBase"
+    ]
+  },
+  {
+    "Type": "signed int",
+    "dependencies": [
+      "writer_int",
+      "writer_int_withBase"
+    ]
+  },
+  {
+    "Type": "string",
+    "dependencies": [
+      "writer_string",
+      "writer_string"
+    ]
+  },
+  {
+    "Type": "uint",
+    "dependencies": [
+      "writer_unsigned",
+      "writer_unsigned"
+    ]
+  },
+  {
+    "Type": "uint16_t",
+    "dependencies": [
+      "writer_unsigned",
+      "writer_ull",
+      "writer_uint128",
+      "writer_unsigned",
+      "writer_ull",
+      "writer_uint128"
+    ]
+  },
+  {
+    "Type": "uint32_t",
+    "dependencies": [
+      "writer_unsigned",
+      "writer_ull",
+      "writer_uint128",
+      "writer_unsigned",
+      "writer_ull",
+      "writer_uint128"
+    ]
+  },
+  {
+    "Type": "uint64_t",
+    "dependencies": [
+      "writer_unsigned",
+      "writer_ull",
+      "writer_uint128",
+      "writer_unsigned",
+      "writer_ull",
+      "writer_uint128"
+    ]
+  },
+  {
+    "Type": "uint8_t",
+    "dependencies": [
+      "writer_unsigned",
+      "writer_ull",
+      "writer_uint128",
+      "writer_unsigned",
+      "writer_ull",
+      "writer_uint128"
+    ]
+  },
+  {
+    "Type": "ull",
+    "dependencies": [
+      "writer_ull",
+      "writer_ull"
+    ]
+  },
+  {
+    "Type": "unsigned",
+    "dependencies": [
+      "writer_unsigned",
+      "writer_unsigned"
+    ]
+  },
+  {
+    "Type": "unsigned int",
+    "dependencies": [
+      "writer_unsigned",
+      "writer_unsigned"
+    ]
+  },
+  {
+    "Type": "unsigned long long",
+    "dependencies": [
+      "writer_ull",
+      "writer_ull"
+    ]
+  }
+]
