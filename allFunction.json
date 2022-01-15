@@ -1,637 +1,3478 @@
-{"name":"","argc":0,"alias":"","condition":"","dependencies":[]},
-{"name":"rdLine","argc":3,"alias":"rdLine_L","condition":"rdLine","dependencies":["rdLine"
-]},
-{"name":"sortA","argc":5,"alias":"sortA_L","condition":"sortA","dependencies":["sortA_1",
-"sortA_1",
-"sortA_2",
-"sortA_2",
-"sortA_3",
-"sortA_3",
-"sortA_4"
-]},
-{"name":"sortA_index","argc":5,"alias":"sortA_index_L","condition":"sortA_index","dependencies":["sortA_index_2",
-"sortA_index_2",
-"sortA_index_3",
-"sortA_index_3",
-"sortA_index_4"
-]},
-{"name":"rsortA","argc":5,"alias":"rsortA_L","condition":"rsortA","dependencies":["rsortA_1",
-"rsortA_1",
-"rsortA_2",
-"rsortA_2",
-"rsortA_3",
-"rsortA_3",
-"rsortA_4"
-]},
-{"name":"sortV","argc":4,"alias":"sortV_L","condition":"sortV","dependencies":["sortV_1",
-"sortV_1",
-"sortV_2",
-"sortV_2",
-"sortV_3",
-"sortV_3",
-"sortV_4"
-]},
-{"name":"rsortV","argc":4,"alias":"rsortV_L","condition":"rsortV","dependencies":["rsortV_1",
-"rsortV_1",
-"rsortV_2",
-"rsortV_2",
-"rsortV_3",
-"rsortV_3",
-"rsortV_4"
-]},
-{"name":"sortF","argc":3,"alias":"sortF_L","condition":"sortF","dependencies":["sortF_int",
-"sortF_ll"
-]},
-{"name":"Digit","argc":3,"alias":"Digit_L","condition":"Digit","dependencies":["Digit",
-"Digit_base",
-"Digit_all",
-"Digit_all_base"
-]},
-{"name":"DigitF","argc":4,"alias":"DigitF_L","condition":"DigitF","dependencies":["DigitF_all",
-"DigitF_all_base"
-]},
-{"name":"invDigit","argc":3,"alias":"invDigit_L","condition":"invDigit","dependencies":["invDigit",
-"invDigit_base"
-]},
-{"name":"sod","argc":2,"alias":"sod_L","condition":"sod","dependencies":["sod",
-"sod_base"
-]},
-{"name":"wAdjEdge","argc":6,"alias":"wAdjEdge_L","condition":"wAdjEdge","dependencies":["wAdjEdge1"
-]},
-{"name":"convolution","argc":3,"alias":"convolution_L","condition":"convolution","dependencies":["convolution",
-"convolution-mint",
-"convolution-Mint",
-"convolution-modint",
-"convolution-Modint"
-]},
-{"name":"ZetaTransform","argc":3,"alias":"ZetaTransform_L","condition":"ZetaTransform","dependencies":["ZetaTransform"
-]},
-{"name":"ZetaTransform_min","argc":5,"alias":"ZetaTransform_min_L","condition":"ZetaTransform_min","dependencies":["ZetaTransform_min",
-"ZetaTransform_min2",
-"ZetaTransform_min3"
-]},
-{"name":"ZetaTransform_max","argc":3,"alias":"ZetaTransform_max_L","condition":"ZetaTransform_max","dependencies":["ZetaTransform_max"
-]},
-{"name":"polationPoly","argc":3,"alias":"polationPoly_L","condition":"polationPoly","dependencies":["polationPoly"
-]},
-{"name":"Explode","argc":3,"alias":"Explode_L","condition":"Explode","dependencies":["Explode"
-]},
-{"name":"Implode","argc":3,"alias":"Implode_L","condition":"Implode","dependencies":["Implode"
-]},
-{"name":"InnerProd","argc":5,"alias":"InnerProd_L","condition":"InnerProd","dependencies":["InnerProd_1",
-"InnerProd_2",
-"InnerProd_3",
-"InnerProd_4"
-]},
-{"name":"crossProd","argc":3,"alias":"crossProd_L","condition":"crossProd","dependencies":["crossProd"
-]},
-{"name":"LineIntersection_size","argc":3,"alias":"LineIntersection_size_L","condition":"LineIntersection_size","dependencies":["LineIntersection_size"
-]},
-{"name":"arrEraseVal","argc":6,"alias":"arrEraseVal_L","condition":"arrEraseVal","dependencies":["arrEraseVal1",
-"arrEraseVal2",
-"arrEraseVal3",
-"arrEraseVal4"
-]},
-{"name":"vecEraseVal","argc":2,"alias":"vecEraseVal_L","condition":"vecEraseVal","dependencies":["vecEraseVal1"
-]},
-{"name":"DistinctE","argc":4,"alias":"DistinctE_L","condition":"DistinctE","dependencies":["DistinctE_2",
-"DistinctE_3",
-"DistinctE_4"
-]},
-{"name":"Mex","argc":4,"alias":"Mex_L","condition":"Mex","dependencies":["Mex1",
-"Mex2",
-"Mex",
-"Mex3",
-"Mex",
-"Mex"
-]},
-{"name":"Kth0","argc":4,"alias":"Kth0_L","condition":"Kth0","dependencies":["Kth0_size2",
-"Kth0_size3",
-"Kth0_size4"
-]},
-{"name":"Kth1","argc":4,"alias":"Kth1_L","condition":"Kth1","dependencies":["Kth1_size2",
-"Kth1_size3",
-"Kth1_size4"
-]},
-{"name":"Kth2","argc":4,"alias":"Kth2_L","condition":"Kth2","dependencies":["Kth2_size3",
-"Kth2_size4"
-]},
-{"name":"Kth3","argc":4,"alias":"Kth3_L","condition":"Kth3","dependencies":["Kth3_size4"
-]},
-{"name":"KthA","argc":3,"alias":"KthA_L","condition":"KthA","dependencies":["KthA"
-]},
-{"name":"strReplace","argc":3,"alias":"strReplace_L","condition":"strReplace","dependencies":["strReplace1",
-"strReplace2"
-]},
-{"name":"BIT_popcount","argc":3,"alias":"BIT_popcount_L","condition":"BIT_popcount","dependencies":["BIT_popcount"
-]},
-{"name":"BIT_ctz","argc":3,"alias":"BIT_ctz_L","condition":"BIT_ctz","dependencies":["BIT_ctz"
-]},
-{"name":"BIT_lowest","argc":3,"alias":"","condition":"BIT_lowest","dependencies":[]},
-{"name":"BIT_nonlowest","argc":3,"alias":"","condition":"BIT_nonlowest","dependencies":[]},
-{"name":"Prime","argc":3,"alias":"Prime_L","condition":"Prime","dependencies":["Prime"
-]},
-{"name":"Isqrt_f","argc":3,"alias":"Isqrt_f_L","condition":"Isqrt_f","dependencies":["Isqrt_f"
-]},
-{"name":"Isqrt_c","argc":3,"alias":"Isqrt_c_L","condition":"Isqrt_c","dependencies":["Isqrt_c"
-]},
-{"name":"Isqrt_s","argc":3,"alias":"Isqrt_s_L","condition":"Isqrt_s","dependencies":["Isqrt_s"
-]},
-{"name":"Icbrt_f","argc":3,"alias":"Icbrt_f_L","condition":"Icbrt_f","dependencies":["Icbrt_f"
-]},
-{"name":"Icbrt_c","argc":3,"alias":"Icbrt_c_L","condition":"Icbrt_c","dependencies":["Icbrt_c"
-]},
-{"name":"Icbrt_s","argc":3,"alias":"Icbrt_s_L","condition":"Icbrt_s","dependencies":["Icbrt_s"
-]},
-{"name":"Iroot_f","argc":3,"alias":"Iroot_f_L","condition":"Iroot_f","dependencies":["Iroot_f"
-]},
-{"name":"Iroot_c","argc":3,"alias":"Iroot_c_L","condition":"Iroot_c","dependencies":["Iroot_c"
-]},
-{"name":"Iroot_s","argc":3,"alias":"Iroot_s_L","condition":"Iroot_s","dependencies":["Iroot_s"
-]},
-{"name":"Ilog2_f","argc":3,"alias":"Ilog2_f_L","condition":"Ilog2_f","dependencies":["Ilog2_f"
-]},
-{"name":"Ilog2_c","argc":3,"alias":"Ilog2_c_L","condition":"Ilog2_c","dependencies":["Ilog2_c"
-]},
-{"name":"Ilog2_s","argc":3,"alias":"Ilog2_s_L","condition":"Ilog2_s","dependencies":["Ilog2_s"
-]},
-{"name":"Isqrt","argc":3,"alias":"Isqrt_f_L","condition":"Isqrt","dependencies":["Isqrt_f"
-]},
-{"name":"Icbrt","argc":3,"alias":"Icbrt_f_L","condition":"Icbrt","dependencies":["Icbrt_f"
-]},
-{"name":"Iroot","argc":3,"alias":"Iroot_f_L","condition":"Iroot","dependencies":["Iroot_f"
-]},
-{"name":"primitiveRoot","argc":3,"alias":"","condition":"primitiveRoot","dependencies":["primitiveRoot"
-]},
-{"name":"knightDistance","argc":3,"alias":"","condition":"knightDistance","dependencies":["knightDistance"
-]},
-{"name":"LIS_length","argc":3,"alias":"","condition":"LIS_length","dependencies":["LIS_length"
-]},
-{"name":"weaklyLIS_length","argc":3,"alias":"","condition":"weaklyLIS_length","dependencies":["weaklyLIS_length"
-]},
-{"name":"LIS_ends","argc":3,"alias":"","condition":"LIS_ends","dependencies":["LIS_ends"
-]},
-{"name":"weaklyLIS_ends","argc":3,"alias":"","condition":"weaklyLIS_ends","dependencies":["weaklyLIS_ends"
-]},
-{"name":"longestSuffixPrefix","argc":3,"alias":"","condition":"longestSuffixPrefix","dependencies":["longestSuffixPrefix"
-]},
-{"name":"SuffixArray","argc":3,"alias":"","condition":"SuffixArray","dependencies":["SuffixArray"
-]},
-{"name":"smallestSubsequenceLengthK","argc":3,"alias":"","condition":"smallestSubsequenceLengthK","dependencies":["smallestSubsequenceLengthK"
-]},
-{"name":"isSubstring","argc":3,"alias":"","condition":"isSubstring","dependencies":["isSubstring_string"
-]},
-{"name":"isPalindrome","argc":3,"alias":"","condition":"isPalindrome","dependencies":["isPalindrome"
-]},
-{"name":"rd_int","argc":3,"alias":"","condition":"rd_int","dependencies":["rd_int"
-]},
-{"name":"rd_ll","argc":3,"alias":"","condition":"rd_ll","dependencies":["rd_ll"
-]},
-{"name":"rd_string","argc":3,"alias":"","condition":"rd_string","dependencies":["rd_string"
-]},
-{"name":"fDiv","argc":3,"alias":"","condition":"fDiv","dependencies":["fDiv"
-]},
-{"name":"cDiv","argc":3,"alias":"","condition":"cDiv","dependencies":["cDiv"
-]},
-{"name":"floor_sum","argc":3,"alias":"","condition":"floor_sum","dependencies":["floor_sum"
-]},
-{"name":"floor_sum2","argc":3,"alias":"","condition":"floor_sum2","dependencies":["floor_sum2"
-]},
-{"name":"graph_minColor","argc":3,"alias":"","condition":"graph_minColor","dependencies":["graph_minColor"
-]},
-{"name":"xorMin","argc":3,"alias":"","condition":"xorMin","dependencies":["xorMin"
-]},
-{"name":"xorMax","argc":3,"alias":"","condition":"xorMax","dependencies":["xorMax"
-]},
-{"name":"calcRollingHash","argc":3,"alias":"","condition":"calcRollingHash","dependencies":["rollingHash"
-]},
-{"name":"fft","argc":3,"alias":"","condition":"fft","dependencies":["fft",
-"fft-mint",
-"fft-Mint",
-"fft-modint",
-"fft-Modint"
-]},
-{"name":"get_inv_mod","argc":3,"alias":"","condition":"get_inv_mod","dependencies":["get_inv_mod"
-]},
-{"name":"extendedEuclid","argc":3,"alias":"","condition":"extendedEuclid","dependencies":["extendedEuclid"
-]},
-{"name":"chineseRemainder","argc":3,"alias":"","condition":"chineseRemainder","dependencies":["chineseRemainder"
-]},
-{"name":"writerDigit_double","argc":3,"alias":"","condition":"writerDigit_double","dependencies":["writer_double"
-]},
-{"name":"arrcmp","argc":3,"alias":"","condition":"arrcmp","dependencies":["arrcmp"
-]},
-{"name":"arrRot","argc":3,"alias":"","condition":"arrRot","dependencies":["arrRot"
-]},
-{"name":"Distinct","argc":3,"alias":"","condition":"Distinct","dependencies":["Distinct"
-]},
-{"name":"arrInsert","argc":3,"alias":"","condition":"arrInsert","dependencies":["arrInsert"
-]},
-{"name":"reduceFraction","argc":3,"alias":"","condition":"reduceFraction","dependencies":["reduceFraction"
-]},
-{"name":"MoebiusTransform","argc":3,"alias":"","condition":"MoebiusTransform","dependencies":["MoebiusTransform"
-]},
-{"name":"isVowel","argc":3,"alias":"","condition":"isVowel","dependencies":["isVowel"
-]},
-{"name":"KMP","argc":3,"alias":"","condition":"KMP","dependencies":["KMP"
-]},
-{"name":"Hungarian","argc":3,"alias":"","condition":"Hungarian","dependencies":["Hungarian"
-]},
-{"name":"counterSumIsLT","argc":3,"alias":"","condition":"counterSumIsLT","dependencies":["counterSumIsLT"
-]},
-{"name":"counterProdIsLT","argc":3,"alias":"","condition":"counterProdIsLT","dependencies":["counterProdIsLT"
-]},
-{"name":"counterD2SumIsLT","argc":3,"alias":"","condition":"counterD2SumIsLT","dependencies":["counterD2SumIsLT"
-]},
-{"name":"counterM2SumIsLT","argc":3,"alias":"","condition":"counterM2SumIsLT","dependencies":["counterM2SumIsLT"
-]},
-{"name":"counterD2ProdIsLT","argc":3,"alias":"","condition":"counterD2ProdIsLT","dependencies":["counterD2ProdIsLT"
-]},
-{"name":"counterM2ProdIsLT","argc":3,"alias":"","condition":"counterM2ProdIsLT","dependencies":["counterM2ProdIsLT"
-]},
-{"name":"HammingDistance","argc":3,"alias":"","condition":"HammingDistance","dependencies":["HammingDistance"
-]},
-{"name":"editDistance","argc":3,"alias":"","condition":"editDistance","dependencies":["editDistance"
-]},
-{"name":"Cmod2","argc":3,"alias":"","condition":"Cmod2","dependencies":["Cmod2"
-]},
-{"name":"next_mcomb","argc":3,"alias":"","condition":"next_mcomb","dependencies":["next_mcomb"
-]},
-{"name":"next_scomb","argc":3,"alias":"","condition":"next_scomb","dependencies":["next_scomb"
-]},
-{"name":"next_marr","argc":3,"alias":"","condition":"next_marr","dependencies":["next_marr"
-]},
-{"name":"next_sarr","argc":3,"alias":"","condition":"next_sarr","dependencies":["next_sarr"
-]},
-{"name":"next_sarr_s","argc":3,"alias":"","condition":"next_sarr_s","dependencies":["next_sarr_s"
-]},
-{"name":"walloc1d","argc":3,"alias":"","condition":"walloc1d","dependencies":["walloc1d"
-]},
-{"name":"walloc2d","argc":3,"alias":"","condition":"walloc2d","dependencies":["walloc2d"
-]},
-{"name":"malloc1d","argc":3,"alias":"","condition":"malloc1d","dependencies":["malloc1d"
-]},
-{"name":"free1d","argc":3,"alias":"","condition":"free1d","dependencies":["free1d"
-]},
-{"name":"malloc2d","argc":3,"alias":"","condition":"malloc2d","dependencies":["malloc2d"
-]},
-{"name":"free2d","argc":3,"alias":"","condition":"free2d","dependencies":["free2d"
-]},
-{"name":"isPrime","argc":3,"alias":"","condition":"isPrime","dependencies":["isPrime"
-]},
-{"name":"Factor","argc":3,"alias":"","condition":"Factor","dependencies":["Factor"
-]},
-{"name":"FactorM","argc":3,"alias":"","condition":"FactorM","dependencies":["FactorM"
-]},
-{"name":"Divisor","argc":3,"alias":"","condition":"Divisor","dependencies":["Divisor"
-]},
-{"name":"DivisorSum","argc":3,"alias":"","condition":"DivisorSum","dependencies":["DivisorSum"
-]},
-{"name":"Moebius","argc":3,"alias":"","condition":"Moebius","dependencies":["Moebius"
-]},
-{"name":"EulerPhi","argc":3,"alias":"","condition":"EulerPhi","dependencies":["EulerPhi"
-]},
-{"name":"BIT_parity","argc":3,"alias":"","condition":"BIT_parity","dependencies":["BIT_parity"
-]},
-{"name":"BIT_parity_pm","argc":3,"alias":"","condition":"BIT_parity_pm","dependencies":["BIT_parity_pm"
-]},
-{"name":"prodDigits","argc":3,"alias":"","condition":"prodDigits","dependencies":["prodDigits"
-]},
-{"name":"DigitHist","argc":3,"alias":"","condition":"DigitHist","dependencies":["DigitHist"
-]},
-{"name":"invDigit_r","argc":3,"alias":"","condition":"invDigit_r","dependencies":["invDigit_r"
-]},
-{"name":"STR2int","argc":3,"alias":"","condition":"STR2int","dependencies":["STR2int"
-]},
-{"name":"STR2ll","argc":3,"alias":"","condition":"STR2ll","dependencies":["STR2ll"
-]},
-{"name":"intervalSieve","argc":3,"alias":"","condition":"intervalSieve","dependencies":["intervalSieve"
-]},
-{"name":"powmod","argc":3,"alias":"","condition":"powmod","dependencies":["powmod"
-]},
-{"name":"PowMod","argc":3,"alias":"","condition":"PowMod","dependencies":["PowMod"
-]},
-{"name":"runLength","argc":3,"alias":"","condition":"runLength","dependencies":["runLength"
-]},
-{"name":"arrErase","argc":3,"alias":"","condition":"arrErase","dependencies":["arrErase"
-]},
-{"name":"arrCountVal","argc":3,"alias":"","condition":"arrCountVal","dependencies":["arrCountVal"
-]},
-{"name":"arrCountValSeqMax","argc":3,"alias":"","condition":"arrCountValSeqMax","dependencies":["arrCountValSeqMax"
-]},
-{"name":"RoundUp","argc":3,"alias":"","condition":"RoundUp","dependencies":["RoundUp"
-]},
-{"name":"RoundDown","argc":3,"alias":"","condition":"RoundDown","dependencies":["RoundDown"
-]},
-{"name":"Unique","argc":3,"alias":"","condition":"Unique","dependencies":["Unique"
-]},
-{"name":"isSubsequence","argc":3,"alias":"","condition":"isSubsequence","dependencies":["isSubsequence"
-]},
-{"name":"isSubsequence_r","argc":3,"alias":"","condition":"isSubsequence_r","dependencies":["isSubsequence_r"
-]},
-{"name":"inversion_range","argc":3,"alias":"","condition":"inversion_range","dependencies":["inversion_range"
-]},
-{"name":"inversion","argc":3,"alias":"","condition":"inversion","dependencies":["inversion"
-]},
-{"name":"ZetaTransform2","argc":3,"alias":"","condition":"ZetaTransform2","dependencies":["ZetaTransform2"
-]},
-{"name":"MoebiusTransform2","argc":3,"alias":"","condition":"MoebiusTransform2","dependencies":["MoebiusTransform2"
-]},
-{"name":"HadamardTransform","argc":3,"alias":"","condition":"HadamardTransform","dependencies":["HadamardTransform"
-]},
-{"name":"xorConvolution","argc":3,"alias":"","condition":"xorConvolution","dependencies":["xorConvolution"
-]},
-{"name":"orConvolution","argc":3,"alias":"","condition":"orConvolution","dependencies":["orConvolution"
-]},
-{"name":"andConvolution","argc":3,"alias":"","condition":"andConvolution","dependencies":["andConvolution"
-]},
-{"name":"slideMin","argc":3,"alias":"","condition":"slideMin","dependencies":["slideMin"
-]},
-{"name":"slideMax","argc":3,"alias":"","condition":"slideMax","dependencies":["slideMax"
-]},
-{"name":"isLeapYear","argc":3,"alias":"","condition":"isLeapYear","dependencies":["isLeapYear"
-]},
-{"name":"dayOfWeek","argc":3,"alias":"","condition":"dayOfWeek","dependencies":["dayOfWeek"
-]},
-{"name":"dayOfWeekStr","argc":3,"alias":"","condition":"dayOfWeekStr","dependencies":["dayOfWeekStr"
-]},
-{"name":"prevDay","argc":3,"alias":"","condition":"prevDay","dependencies":["prevDay"
-]},
-{"name":"nextDay","argc":3,"alias":"","condition":"nextDay","dependencies":["nextDay"
-]},
-{"name":"dayIndex","argc":3,"alias":"","condition":"dayIndex","dependencies":["dayIndex"
-]},
-{"name":"dayFromIndex","argc":3,"alias":"","condition":"dayFromIndex","dependencies":["dayFromIndex"
-]},
-{"name":"polationVal","argc":3,"alias":"","condition":"polationVal","dependencies":["polationVal"
-]},
-{"name":"TSP_cycle","argc":3,"alias":"","condition":"TSP_cycle","dependencies":["TSP_cycle"
-]},
-{"name":"TSP_path","argc":3,"alias":"","condition":"TSP_path","dependencies":["TSP_path"
-]},
-{"name":"TSP_path_s","argc":3,"alias":"","condition":"TSP_path_s","dependencies":["TSP_path_s"
-]},
-{"name":"maxSubsetDP","argc":3,"alias":"","condition":"maxSubsetDP","dependencies":["maxSubsetDP"
-]},
-{"name":"maxRectArea","argc":3,"alias":"","condition":"maxRectArea","dependencies":["maxRectArea"
-]},
-{"name":"isValidBracket1","argc":3,"alias":"","condition":"isValidBracket1","dependencies":["isValidBracket1"
-]},
-{"name":"isValidBracket2","argc":3,"alias":"","condition":"isValidBracket2","dependencies":["isValidBracket2"
-]},
-{"name":"swapV","argc":3,"alias":"","condition":"swapV","dependencies":["swapV"
-]},
-{"name":"cntSubarrayFreq","argc":3,"alias":"","condition":"cntSubarrayFreq","dependencies":["cntSubarrayFreq"
-]},
-{"name":"cntSubarrayDistinct","argc":3,"alias":"","condition":"cntSubarrayDistinct","dependencies":["cntSubarrayDistinct"
-]},
-{"name":"maxSubarrayDistinct","argc":3,"alias":"","condition":"maxSubarrayDistinct","dependencies":["maxSubarrayDistinct"
-]},
-{"name":"vec2arr","argc":3,"alias":"","condition":"vec2arr","dependencies":["vec2arr"
-]},
-{"name":"Rot90","argc":3,"alias":"","condition":"Rot90","dependencies":["Rot90"
-]},
-{"name":"minFactorList","argc":3,"alias":"","condition":"minFactorList","dependencies":["minFactorList"
-]},
-{"name":"maxFactorList","argc":3,"alias":"","condition":"maxFactorList","dependencies":["maxFactorList"
-]},
-{"name":"FactorList","argc":3,"alias":"","condition":"FactorList","dependencies":["FactorList"
-]},
-{"name":"FactorMList","argc":3,"alias":"","condition":"FactorMList","dependencies":["FactorMList"
-]},
-{"name":"EulerPhiList","argc":3,"alias":"","condition":"EulerPhiList","dependencies":["EulerPhiList"
-]},
-{"name":"LinearEquationMod2","argc":3,"alias":"","condition":"LinearEquationMod2","dependencies":["LinearEquationMod2"
-]},
-{"name":"LinearEquation","argc":3,"alias":"","condition":"LinearEquation","dependencies":["LinearEquation"
-]},
-{"name":"LexicographicGE","argc":3,"alias":"","condition":"LexicographicGE","dependencies":["LexicographicGE"
-]},
-{"name":"cReader_ll","argc":3,"alias":"","condition":"cReader_ll","dependencies":["cReader_ll"
-]},
-{"name":"cReader_eof","argc":3,"alias":"","condition":"cReader_eof","dependencies":["cReader_eof"
-]},
-{"name":"cntPrime","argc":3,"alias":"","condition":"cntPrime","dependencies":["cntPrime"
-]},
-{"name":"arrMerge","argc":3,"alias":"","condition":"arrMerge","dependencies":["arrMerge"
-]},
-{"name":"arrMergeD","argc":3,"alias":"","condition":"arrMergeD","dependencies":["arrMergeD"
-]},
-{"name":"popFirst","argc":3,"alias":"","condition":"popFirst","dependencies":["multiset_popFirst"
-]},
-{"name":"getFirst","argc":3,"alias":"","condition":"getFirst","dependencies":["multiset_getFirst"
-]},
-{"name":"popLast","argc":3,"alias":"","condition":"popLast","dependencies":["multiset_popLast"
-]},
-{"name":"getLast","argc":3,"alias":"","condition":"getLast","dependencies":["multiset_getLast"
-]},
-{"name":"popFirst","argc":3,"alias":"","condition":"popFirst","dependencies":["set_popFirst"
-]},
-{"name":"getFirst","argc":3,"alias":"","condition":"getFirst","dependencies":["set_getFirst"
-]},
-{"name":"popLast","argc":3,"alias":"","condition":"popLast","dependencies":["set_popLast"
-]},
-{"name":"getLast","argc":3,"alias":"","condition":"getLast","dependencies":["set_getLast"
-]},
-{"name":"getClosest","argc":3,"alias":"","condition":"getClosest","dependencies":["multiset_getClosest"
-]},
-{"name":"getClosestL","argc":3,"alias":"","condition":"getClosestL","dependencies":["multiset_getClosestL"
-]},
-{"name":"getClosest","argc":3,"alias":"","condition":"getClosest","dependencies":["set_getClosest"
-]},
-{"name":"getClosestL","argc":3,"alias":"","condition":"getClosestL","dependencies":["set_getClosestL"
-]},
-{"name":"getClosest","argc":3,"alias":"","condition":"getClosest","dependencies":["arr_getClosest"
-]},
-{"name":"getClosestL","argc":3,"alias":"","condition":"getClosestL","dependencies":["arr_getClosestL"
-]},
-{"name":"setEdge","argc":3,"alias":"","condition":"setEdge","dependencies":["graph_setEdge"
-]},
-{"name":"setDirectEdge","argc":3,"alias":"","condition":"setDirectEdge","dependencies":["graph_setDirectEdge"
-]},
-{"name":"setEdgeRootedTree","argc":3,"alias":"","condition":"setEdgeRootedTree","dependencies":["graph_setEdgeRootedTree"
-]},
-{"name":"reverse","argc":3,"alias":"","condition":"reverse","dependencies":["graph_reverse"
-]},
-{"name":"reduce","argc":3,"alias":"","condition":"reduce","dependencies":["graph_reduce"
-]},
-{"name":"getDist","argc":3,"alias":"","condition":"getDist","dependencies":["graph_getDist"
-]},
-{"name":"TreeDiameter","argc":3,"alias":"","condition":"TreeDiameter","dependencies":["graph_TreeDiameter"
-]},
-{"name":"getDistTree_WeightedNode_max","argc":3,"alias":"","condition":"getDistTree_WeightedNode_max","dependencies":["graph_getDistTree_WeightedNode_max"
-]},
-{"name":"getDistPairMatrix","argc":3,"alias":"","condition":"getDistPairMatrix","dependencies":["graph_getDistPairMatrix"
-]},
-{"name":"SubTreeSize","argc":3,"alias":"","condition":"SubTreeSize","dependencies":["graph_SubTreeSize"
-]},
-{"name":"SubTreeWeight","argc":3,"alias":"","condition":"SubTreeWeight","dependencies":["graph_SubTreeWeight"
-]},
-{"name":"cntShortest","argc":3,"alias":"","condition":"cntShortest","dependencies":["graph_cntShortest"
-]},
-{"name":"scc","argc":3,"alias":"","condition":"scc","dependencies":["graph_scc"
-]},
-{"name":"bcc","argc":3,"alias":"","condition":"bcc","dependencies":["graph_bcc"
-]},
-{"name":"articulation","argc":3,"alias":"","condition":"articulation","dependencies":["graph_articulation"
-]},
-{"name":"shortestPath","argc":3,"alias":"","condition":"shortestPath","dependencies":["graph_shortestPath"
-]},
-{"name":"TopologicalSort","argc":3,"alias":"","condition":"TopologicalSort","dependencies":["graph_TopologicalSort"
-]},
-{"name":"longestPath_length","argc":3,"alias":"","condition":"longestPath_length","dependencies":["graph_longestPath_length"
-]},
-{"name":"Grundy","argc":3,"alias":"","condition":"Grundy","dependencies":["graph_Grundy"
-]},
-{"name":"preorder","argc":3,"alias":"","condition":"preorder","dependencies":["graph_preorder"
-]},
-{"name":"anUndirectedCycle","argc":3,"alias":"","condition":"anUndirectedCycle","dependencies":["graph_anUndirectedCycle"
-]},
-{"name":"shortestCycle","argc":3,"alias":"","condition":"shortestCycle","dependencies":["graph_shortestCycle"
-]},
-{"name":"shortestUndirectedCycle_length","argc":3,"alias":"","condition":"shortestUndirectedCycle_length","dependencies":["graph_shortestUndirectedCycle_length"
-]},
-{"name":"shortestUndirectedCycle_length","argc":3,"alias":"","condition":"shortestUndirectedCycle_length","dependencies":["graph_shortestUndirectedCycle_length_node"
-]},
-{"name":"maxIndependenceSet","argc":3,"alias":"","condition":"maxIndependenceSet","dependencies":["graph_maxIndependenceSet"
-]},
-{"name":"countIndependenceSet","argc":3,"alias":"","condition":"countIndependenceSet","dependencies":["graph_countIndependenceSet"
-]},
-{"name":"bipartite","argc":3,"alias":"","condition":"bipartite","dependencies":["graph_bipartite"
-]},
-{"name":"Rerooting","argc":3,"alias":"","condition":"Rerooting","dependencies":["graph_Rerooting"
-]},
-{"name":"setEdge","argc":3,"alias":"","condition":"setEdge","dependencies":["wgraph_setEdge"
-]},
-{"name":"setDirectEdge","argc":3,"alias":"","condition":"setDirectEdge","dependencies":["wgraph_setDirectEdge"
-]},
-{"name":"setEdgeRootedTree","argc":3,"alias":"","condition":"setEdgeRootedTree","dependencies":["wgraph_setEdgeRootedTree"
-]},
-{"name":"getDist","argc":3,"alias":"","condition":"getDist","dependencies":["wgraph_getDist"
-]},
-{"name":"getDistDense","argc":3,"alias":"","condition":"getDistDense","dependencies":["wgraph_getDistDense"
-]},
-{"name":"getDistForest","argc":3,"alias":"","condition":"getDistForest","dependencies":["wgraph_getDistForest"
-]},
-{"name":"BellmanFord","argc":3,"alias":"","condition":"BellmanFord","dependencies":["wgraph_BellmanFord"
-]},
-{"name":"getDist01","argc":3,"alias":"","condition":"getDist01","dependencies":["wgraph_getDist01"
-]},
-{"name":"MST_Prim_cost","argc":3,"alias":"","condition":"MST_Prim_cost","dependencies":["wgraph_MST_Prim_cost"
-]},
-{"name":"Rerooting","argc":3,"alias":"","condition":"Rerooting","dependencies":["wgraph_Rerooting"
-]},
-{"name":"numOfDaysInMonth","argc":3,"alias":"","condition":"numOfDaysInMonth","dependencies":["numOfDaysInMonth1"
-]},
-{"name":"numOfDaysInMonth","argc":3,"alias":"","condition":"numOfDaysInMonth","dependencies":["numOfDaysInMonth2"
-]},
-{"name":"getSum","argc":3,"alias":"","condition":"getSum","dependencies":["Arr1d_getSum"
-]},
-{"name":"setSum","argc":3,"alias":"","condition":"setSum","dependencies":["Arr1d_getSum"
-]},
-{"name":"setConstLenLeft","argc":3,"alias":"","condition":"setConstLenLeft","dependencies":["Arr1d_ConstLenLeft"
-]},
-{"name":"ConstLenLeft","argc":3,"alias":"","condition":"ConstLenLeft","dependencies":["Arr1d_ConstLenLeft"
-]},
-{"name":"ConstLenLeftCyclic","argc":3,"alias":"","condition":"ConstLenLeftCyclic","dependencies":["Arr1d_ConstLenLeft"
-]},
-{"name":"setConstLenRight","argc":3,"alias":"","condition":"setConstLenRight","dependencies":["Arr1d_ConstLenRight"
-]},
-{"name":"ConstLenRight","argc":3,"alias":"","condition":"ConstLenRight","dependencies":["Arr1d_ConstLenRight"
-]},
-{"name":"ConstLenRightCyclic","argc":3,"alias":"","condition":"ConstLenRightCyclic","dependencies":["Arr1d_ConstLenRight"
-]},
-{"name":"setDHist","argc":3,"alias":"","condition":"setDHist","dependencies":["Arr1d_dHist"
-]},
-{"name":"dHist","argc":3,"alias":"","condition":"dHist","dependencies":["Arr1d_dHist"
-]},
-{"name":"setSHist","argc":3,"alias":"","condition":"setSHist","dependencies":["Arr1d_sHist"
-]},
-{"name":"sHist","argc":3,"alias":"","condition":"sHist","dependencies":["Arr1d_sHist"
-]},
-{"name":"setPrevLE","argc":3,"alias":"","condition":"setPrevLE","dependencies":["Arr1d_PrevLE"
-]},
-{"name":"PrevLE","argc":3,"alias":"","condition":"PrevLE","dependencies":["Arr1d_PrevLE"
-]},
-{"name":"setPrevLT","argc":3,"alias":"","condition":"setPrevLT","dependencies":["Arr1d_PrevLT"
-]},
-{"name":"PrevLT","argc":3,"alias":"","condition":"PrevLT","dependencies":["Arr1d_PrevLT"
-]},
-{"name":"setPrevGE","argc":3,"alias":"","condition":"setPrevGE","dependencies":["Arr1d_PrevGE"
-]},
-{"name":"PrevGE","argc":3,"alias":"","condition":"PrevGE","dependencies":["Arr1d_PrevGE"
-]},
-{"name":"setPrevGT","argc":3,"alias":"","condition":"setPrevGT","dependencies":["Arr1d_PrevGT"
-]},
-{"name":"PrevGT","argc":3,"alias":"","condition":"PrevGT","dependencies":["Arr1d_PrevGT"
-]},
-{"name":"setNextLE","argc":3,"alias":"","condition":"setNextLE","dependencies":["Arr1d_NextLE"
-]},
-{"name":"NextLE","argc":3,"alias":"","condition":"NextLE","dependencies":["Arr1d_NextLE"
-]},
-{"name":"setNextLT","argc":3,"alias":"","condition":"setNextLT","dependencies":["Arr1d_NextLT"
-]},
-{"name":"NextLT","argc":3,"alias":"","condition":"NextLT","dependencies":["Arr1d_NextLT"
-]},
-{"name":"setNextGE","argc":3,"alias":"","condition":"setNextGE","dependencies":["Arr1d_NextGE"
-]},
-{"name":"NextGE","argc":3,"alias":"","condition":"NextGE","dependencies":["Arr1d_NextGE"
-]},
-{"name":"setNextGT","argc":3,"alias":"","condition":"setNextGT","dependencies":["Arr1d_NextGT"
-]},
-{"name":"NextGT","argc":3,"alias":"","condition":"NextGT","dependencies":["Arr1d_NextGT"
-]},
-{"name":"getSum","argc":3,"alias":"","condition":"getSum","dependencies":["Arr2d_getSum"
-]},
-{"name":"getSumBorder","argc":3,"alias":"","condition":"getSumBorder","dependencies":["Arr2d_getSum"
-]},
-{"name":"getSum45","argc":3,"alias":"","condition":"getSum45","dependencies":["Arr2d_getSum45"
-]},
-{"name":"getSum45Border","argc":3,"alias":"","condition":"getSum45Border","dependencies":["Arr2d_getSum45"
-]},
-{"name":"setConstLenLeft","argc":3,"alias":"","condition":"setConstLenLeft","dependencies":["Arr2d_ConstLenLeft"
-]},
-{"name":"ConstLenLeft","argc":3,"alias":"","condition":"ConstLenLeft","dependencies":["Arr2d_ConstLenLeft"
-]},
-{"name":"setConstLenRight","argc":3,"alias":"","condition":"setConstLenRight","dependencies":["Arr2d_ConstLenRight"
-]},
-{"name":"ConstLenRight","argc":3,"alias":"","condition":"ConstLenRight","dependencies":["Arr2d_ConstLenRight"
-]},
-{"name":"setConstLenUp","argc":3,"alias":"","condition":"setConstLenUp","dependencies":["Arr2d_ConstLenUp"
-]},
-{"name":"ConstLenUp","argc":3,"alias":"","condition":"ConstLenUp","dependencies":["Arr2d_ConstLenUp"
-]},
-{"name":"setConstLenDown","argc":3,"alias":"","condition":"setConstLenDown","dependencies":["Arr2d_ConstLenDown"
-]},
-{"name":"ConstLenDown","argc":3,"alias":"","condition":"ConstLenDown","dependencies":["Arr2d_ConstLenDown"
-]},
-{"name":"InnerProd","argc":3,"alias":"","condition":"InnerProd","dependencies":["Point2d_InnerProd"
-]},
-{"name":"CrossProd","argc":3,"alias":"","condition":"CrossProd","dependencies":["Point2d_CrossProd"
-]},
-{"name":"xysortA","argc":3,"alias":"","condition":"xysortA","dependencies":["Point2d_xysortA"
-]},
-{"name":"argsortA","argc":3,"alias":"","condition":"argsortA","dependencies":["Point2d_argsortA"
-]},
-{"name":"CCW","argc":3,"alias":"","condition":"CCW","dependencies":["Point2d_CCW"
-]},
-{"name":"ConvexHull_sorted","argc":3,"alias":"","condition":"ConvexHull_sorted","dependencies":["Point2d_ConvexHull"
-]},
-{"name":"ConvexHull","argc":3,"alias":"","condition":"ConvexHull","dependencies":["Point2d_ConvexHull"
-]},
-{"name":"PolygonArea2","argc":3,"alias":"","condition":"PolygonArea2","dependencies":["Point2d_PolygonArea2"
-]},
-{"name":"Determinant","argc":3,"alias":"","condition":"Determinant","dependencies":["Determinant_Modint"
-]},
-{"name":"Determinant","argc":3,"alias":"","condition":"Determinant","dependencies":["Determinant_modint"
-]},
-{"name":"Determinant","argc":3,"alias":"","condition":"Determinant","dependencies":["Determinant_Mint"
-]},
-{"name":"Determinant","argc":3,"alias":"","condition":"Determinant","dependencies":["Determinant_mint"
-]},
-{"name":"cntSubsequence","argc":4,"alias":"","condition":"cntSubsequence","dependencies":["cntSubsequence"
-]},
-{"name":"sumPrime","argc":4,"alias":"","condition":"sumPrime","dependencies":["sumPrime"
-]},
-{"name":"getDistT","argc":3,"alias":"","condition":"getDistT","dependencies":["wgraph_getDistT"
-]},
+[
+  {
+    "name": "",
+    "argc": 0,
+    "alias": "",
+    "condition": "",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "rdLine",
+    "argc": 3,
+    "alias": "rdLine_L",
+    "condition": "rdLine",
+    "dependencies": [
+      "rdLine"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "sortA",
+    "argc": 3,
+    "alias": "",
+    "condition": "sortA",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "sortA",
+    "argc": 3,
+    "alias": "",
+    "condition": "sortA",
+    "dependencies": [
+      "sortA_1"
+    ],
+    "subargc": 2
+  },
+  {
+    "name": "sortA",
+    "argc": 3,
+    "alias": "",
+    "condition": "sortA",
+    "dependencies": [
+      "sortA_1",
+      "sortA_2"
+    ],
+    "subargc": 3
+  },
+  {
+    "name": "sortA",
+    "argc": 3,
+    "alias": "",
+    "condition": "sortA",
+    "dependencies": [
+      "sortA_2",
+      "sortA_3"
+    ],
+    "subargc": 4
+  },
+  {
+    "name": "sortA",
+    "argc": 3,
+    "alias": "sortA_L",
+    "condition": "sortA",
+    "dependencies": [
+      "sortA_3",
+      "sortA_4"
+    ],
+    "subargc": 5
+  },
+  {
+    "name": "sortA_index",
+    "argc": 3,
+    "alias": "",
+    "condition": "sortA_index",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "sortA_index",
+    "argc": 3,
+    "alias": "",
+    "condition": "sortA_index",
+    "dependencies": [
+      "sortA_index_2"
+    ],
+    "subargc": 3
+  },
+  {
+    "name": "sortA_index",
+    "argc": 3,
+    "alias": "",
+    "condition": "sortA_index",
+    "dependencies": [
+      "sortA_index_2",
+      "sortA_index_3"
+    ],
+    "subargc": 4
+  },
+  {
+    "name": "sortA_index",
+    "argc": 3,
+    "alias": "sortA_index_L",
+    "condition": "sortA_index",
+    "dependencies": [
+      "sortA_index_3",
+      "sortA_index_4"
+    ],
+    "subargc": 5
+  },
+  {
+    "name": "rsortA",
+    "argc": 3,
+    "alias": "",
+    "condition": "rsortA",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "rsortA",
+    "argc": 3,
+    "alias": "",
+    "condition": "rsortA",
+    "dependencies": [
+      "rsortA_1"
+    ],
+    "subargc": 2
+  },
+  {
+    "name": "rsortA",
+    "argc": 3,
+    "alias": "",
+    "condition": "rsortA",
+    "dependencies": [
+      "rsortA_1",
+      "rsortA_2"
+    ],
+    "subargc": 3
+  },
+  {
+    "name": "rsortA",
+    "argc": 3,
+    "alias": "",
+    "condition": "rsortA",
+    "dependencies": [
+      "rsortA_2",
+      "rsortA_3"
+    ],
+    "subargc": 4
+  },
+  {
+    "name": "rsortA",
+    "argc": 3,
+    "alias": "rsortA_L",
+    "condition": "rsortA",
+    "dependencies": [
+      "rsortA_3",
+      "rsortA_4"
+    ],
+    "subargc": 5
+  },
+  {
+    "name": "sortV",
+    "argc": 3,
+    "alias": "",
+    "condition": "sortV",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "sortV",
+    "argc": 3,
+    "alias": "",
+    "condition": "sortV",
+    "dependencies": [
+      "sortV_1"
+    ],
+    "subargc": 1
+  },
+  {
+    "name": "sortV",
+    "argc": 3,
+    "alias": "",
+    "condition": "sortV",
+    "dependencies": [
+      "sortV_1",
+      "sortV_2"
+    ],
+    "subargc": 2
+  },
+  {
+    "name": "sortV",
+    "argc": 3,
+    "alias": "",
+    "condition": "sortV",
+    "dependencies": [
+      "sortV_2",
+      "sortV_3"
+    ],
+    "subargc": 3
+  },
+  {
+    "name": "sortV",
+    "argc": 3,
+    "alias": "sortV_L",
+    "condition": "sortV",
+    "dependencies": [
+      "sortV_3",
+      "sortV_4"
+    ],
+    "subargc": 4
+  },
+  {
+    "name": "rsortV",
+    "argc": 3,
+    "alias": "",
+    "condition": "rsortV",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "rsortV",
+    "argc": 3,
+    "alias": "",
+    "condition": "rsortV",
+    "dependencies": [
+      "rsortV_1"
+    ],
+    "subargc": 1
+  },
+  {
+    "name": "rsortV",
+    "argc": 3,
+    "alias": "",
+    "condition": "rsortV",
+    "dependencies": [
+      "rsortV_1",
+      "rsortV_2"
+    ],
+    "subargc": 2
+  },
+  {
+    "name": "rsortV",
+    "argc": 3,
+    "alias": "",
+    "condition": "rsortV",
+    "dependencies": [
+      "rsortV_2",
+      "rsortV_3"
+    ],
+    "subargc": 3
+  },
+  {
+    "name": "rsortV",
+    "argc": 3,
+    "alias": "rsortV_L",
+    "condition": "rsortV",
+    "dependencies": [
+      "rsortV_3",
+      "rsortV_4"
+    ],
+    "subargc": 4
+  },
+  {
+    "name": "sortF",
+    "argc": 3,
+    "alias": "sortF_L",
+    "condition": "sortF",
+    "dependencies": [
+      "sortF_int",
+      "sortF_ll"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Digit",
+    "argc": 3,
+    "alias": "",
+    "condition": "Digit",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "Digit",
+    "argc": 3,
+    "alias": "",
+    "condition": "Digit",
+    "dependencies": [
+      "Digit"
+    ],
+    "subargc": 1
+  },
+  {
+    "name": "Digit",
+    "argc": 3,
+    "alias": "",
+    "condition": "Digit",
+    "dependencies": [
+      "Digit_base"
+    ],
+    "subargc": 2
+  },
+  {
+    "name": "Digit",
+    "argc": 3,
+    "alias": "",
+    "condition": "Digit",
+    "dependencies": [
+      "Digit_all"
+    ],
+    "subargc": 2
+  },
+  {
+    "name": "Digit",
+    "argc": 3,
+    "alias": "Digit_L",
+    "condition": "Digit",
+    "dependencies": [
+      "Digit_all_base"
+    ],
+    "subargc": 3
+  },
+  {
+    "name": "DigitF",
+    "argc": 3,
+    "alias": "",
+    "condition": "DigitF",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "DigitF",
+    "argc": 3,
+    "alias": "",
+    "condition": "DigitF",
+    "dependencies": [
+      "DigitF_all"
+    ],
+    "subargc": 3
+  },
+  {
+    "name": "DigitF",
+    "argc": 3,
+    "alias": "DigitF_L",
+    "condition": "DigitF",
+    "dependencies": [
+      "DigitF_all_base"
+    ],
+    "subargc": 4
+  },
+  {
+    "name": "invDigit",
+    "argc": 3,
+    "alias": "",
+    "condition": "invDigit",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "invDigit",
+    "argc": 3,
+    "alias": "",
+    "condition": "invDigit",
+    "dependencies": [
+      "invDigit"
+    ],
+    "subargc": 2
+  },
+  {
+    "name": "invDigit",
+    "argc": 3,
+    "alias": "invDigit_L",
+    "condition": "invDigit",
+    "dependencies": [
+      "invDigit_base"
+    ],
+    "subargc": 3
+  },
+  {
+    "name": "sod",
+    "argc": 3,
+    "alias": "",
+    "condition": "sod",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "sod",
+    "argc": 3,
+    "alias": "",
+    "condition": "sod",
+    "dependencies": [
+      "sod"
+    ],
+    "subargc": 1
+  },
+  {
+    "name": "sod",
+    "argc": 3,
+    "alias": "sod_L",
+    "condition": "sod",
+    "dependencies": [
+      "sod_base"
+    ],
+    "subargc": 2
+  },
+  {
+    "name": "wAdjEdge",
+    "argc": 3,
+    "alias": "",
+    "condition": "wAdjEdge",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "wAdjEdge",
+    "argc": 3,
+    "alias": "wAdjEdge_L",
+    "condition": "wAdjEdge",
+    "dependencies": [
+      "wAdjEdge1"
+    ],
+    "subargc": 6
+  },
+  {
+    "name": "convolution",
+    "argc": 3,
+    "alias": "convolution_L",
+    "condition": "convolution",
+    "dependencies": [
+      "convolution",
+      "convolution-mint",
+      "convolution-Mint",
+      "convolution-modint",
+      "convolution-Modint"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "ZetaTransform",
+    "argc": 3,
+    "alias": "ZetaTransform_L",
+    "condition": "ZetaTransform",
+    "dependencies": [
+      "ZetaTransform"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "ZetaTransform_min",
+    "argc": 3,
+    "alias": "",
+    "condition": "ZetaTransform_min",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "ZetaTransform_min",
+    "argc": 3,
+    "alias": "",
+    "condition": "ZetaTransform_min",
+    "dependencies": [
+      "ZetaTransform_min"
+    ],
+    "subargc": 2
+  },
+  {
+    "name": "ZetaTransform_min",
+    "argc": 3,
+    "alias": "",
+    "condition": "ZetaTransform_min",
+    "dependencies": [
+      "ZetaTransform_min2"
+    ],
+    "subargc": 4
+  },
+  {
+    "name": "ZetaTransform_min",
+    "argc": 3,
+    "alias": "ZetaTransform_min_L",
+    "condition": "ZetaTransform_min",
+    "dependencies": [
+      "ZetaTransform_min3"
+    ],
+    "subargc": 5
+  },
+  {
+    "name": "ZetaTransform_max",
+    "argc": 3,
+    "alias": "ZetaTransform_max_L",
+    "condition": "ZetaTransform_max",
+    "dependencies": [
+      "ZetaTransform_max"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "polationPoly",
+    "argc": 3,
+    "alias": "polationPoly_L",
+    "condition": "polationPoly",
+    "dependencies": [
+      "polationPoly"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Explode",
+    "argc": 3,
+    "alias": "Explode_L",
+    "condition": "Explode",
+    "dependencies": [
+      "Explode"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Implode",
+    "argc": 3,
+    "alias": "Implode_L",
+    "condition": "Implode",
+    "dependencies": [
+      "Implode"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "InnerProd",
+    "argc": 3,
+    "alias": "",
+    "condition": "InnerProd",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "InnerProd",
+    "argc": 3,
+    "alias": "",
+    "condition": "InnerProd",
+    "dependencies": [
+      "InnerProd_1"
+    ],
+    "subargc": 2
+  },
+  {
+    "name": "InnerProd",
+    "argc": 3,
+    "alias": "",
+    "condition": "InnerProd",
+    "dependencies": [
+      "InnerProd_2"
+    ],
+    "subargc": 3
+  },
+  {
+    "name": "InnerProd",
+    "argc": 3,
+    "alias": "",
+    "condition": "InnerProd",
+    "dependencies": [
+      "InnerProd_3"
+    ],
+    "subargc": 4
+  },
+  {
+    "name": "InnerProd",
+    "argc": 3,
+    "alias": "InnerProd_L",
+    "condition": "InnerProd",
+    "dependencies": [
+      "InnerProd_4"
+    ],
+    "subargc": 5
+  },
+  {
+    "name": "crossProd",
+    "argc": 3,
+    "alias": "crossProd_L",
+    "condition": "crossProd",
+    "dependencies": [
+      "crossProd"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "LineIntersection_size",
+    "argc": 3,
+    "alias": "LineIntersection_size_L",
+    "condition": "LineIntersection_size",
+    "dependencies": [
+      "LineIntersection_size"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "arrEraseVal",
+    "argc": 3,
+    "alias": "",
+    "condition": "arrEraseVal",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "arrEraseVal",
+    "argc": 3,
+    "alias": "",
+    "condition": "arrEraseVal",
+    "dependencies": [
+      "arrEraseVal1"
+    ],
+    "subargc": 3
+  },
+  {
+    "name": "arrEraseVal",
+    "argc": 3,
+    "alias": "",
+    "condition": "arrEraseVal",
+    "dependencies": [
+      "arrEraseVal2"
+    ],
+    "subargc": 4
+  },
+  {
+    "name": "arrEraseVal",
+    "argc": 3,
+    "alias": "",
+    "condition": "arrEraseVal",
+    "dependencies": [
+      "arrEraseVal3"
+    ],
+    "subargc": 5
+  },
+  {
+    "name": "arrEraseVal",
+    "argc": 3,
+    "alias": "arrEraseVal_L",
+    "condition": "arrEraseVal",
+    "dependencies": [
+      "arrEraseVal4"
+    ],
+    "subargc": 6
+  },
+  {
+    "name": "vecEraseVal",
+    "argc": 3,
+    "alias": "",
+    "condition": "vecEraseVal",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "vecEraseVal",
+    "argc": 3,
+    "alias": "vecEraseVal_L",
+    "condition": "vecEraseVal",
+    "dependencies": [
+      "vecEraseVal1"
+    ],
+    "subargc": 2
+  },
+  {
+    "name": "DistinctE",
+    "argc": 3,
+    "alias": "",
+    "condition": "DistinctE",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "DistinctE",
+    "argc": 3,
+    "alias": "",
+    "condition": "DistinctE",
+    "dependencies": [
+      "DistinctE_2"
+    ],
+    "subargc": 2
+  },
+  {
+    "name": "DistinctE",
+    "argc": 3,
+    "alias": "",
+    "condition": "DistinctE",
+    "dependencies": [
+      "DistinctE_3"
+    ],
+    "subargc": 3
+  },
+  {
+    "name": "DistinctE",
+    "argc": 3,
+    "alias": "DistinctE_L",
+    "condition": "DistinctE",
+    "dependencies": [
+      "DistinctE_4"
+    ],
+    "subargc": 4
+  },
+  {
+    "name": "Mex",
+    "argc": 3,
+    "alias": "",
+    "condition": "Mex",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "Mex",
+    "argc": 3,
+    "alias": "",
+    "condition": "Mex",
+    "dependencies": [
+      "Mex1"
+    ],
+    "subargc": 1
+  },
+  {
+    "name": "Mex",
+    "argc": 3,
+    "alias": "",
+    "condition": "Mex",
+    "dependencies": [
+      "Mex2",
+      "Mex"
+    ],
+    "subargc": 2
+  },
+  {
+    "name": "Mex",
+    "argc": 3,
+    "alias": "",
+    "condition": "Mex",
+    "dependencies": [
+      "Mex3",
+      "Mex"
+    ],
+    "subargc": 3
+  },
+  {
+    "name": "Mex",
+    "argc": 3,
+    "alias": "Mex_L",
+    "condition": "Mex",
+    "dependencies": [
+      "Mex"
+    ],
+    "subargc": 4
+  },
+  {
+    "name": "Kth0",
+    "argc": 3,
+    "alias": "",
+    "condition": "Kth0",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "Kth0",
+    "argc": 3,
+    "alias": "",
+    "condition": "Kth0",
+    "dependencies": [
+      "Kth0_size2"
+    ],
+    "subargc": 2
+  },
+  {
+    "name": "Kth0",
+    "argc": 3,
+    "alias": "",
+    "condition": "Kth0",
+    "dependencies": [
+      "Kth0_size3"
+    ],
+    "subargc": 3
+  },
+  {
+    "name": "Kth0",
+    "argc": 3,
+    "alias": "Kth0_L",
+    "condition": "Kth0",
+    "dependencies": [
+      "Kth0_size4"
+    ],
+    "subargc": 4
+  },
+  {
+    "name": "Kth1",
+    "argc": 3,
+    "alias": "",
+    "condition": "Kth1",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "Kth1",
+    "argc": 3,
+    "alias": "",
+    "condition": "Kth1",
+    "dependencies": [
+      "Kth1_size2"
+    ],
+    "subargc": 2
+  },
+  {
+    "name": "Kth1",
+    "argc": 3,
+    "alias": "",
+    "condition": "Kth1",
+    "dependencies": [
+      "Kth1_size3"
+    ],
+    "subargc": 3
+  },
+  {
+    "name": "Kth1",
+    "argc": 3,
+    "alias": "Kth1_L",
+    "condition": "Kth1",
+    "dependencies": [
+      "Kth1_size4"
+    ],
+    "subargc": 4
+  },
+  {
+    "name": "Kth2",
+    "argc": 3,
+    "alias": "",
+    "condition": "Kth2",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "Kth2",
+    "argc": 3,
+    "alias": "",
+    "condition": "Kth2",
+    "dependencies": [
+      "Kth2_size3"
+    ],
+    "subargc": 3
+  },
+  {
+    "name": "Kth2",
+    "argc": 3,
+    "alias": "Kth2_L",
+    "condition": "Kth2",
+    "dependencies": [
+      "Kth2_size4"
+    ],
+    "subargc": 4
+  },
+  {
+    "name": "Kth3",
+    "argc": 3,
+    "alias": "",
+    "condition": "Kth3",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "Kth3",
+    "argc": 3,
+    "alias": "Kth3_L",
+    "condition": "Kth3",
+    "dependencies": [
+      "Kth3_size4"
+    ],
+    "subargc": 4
+  },
+  {
+    "name": "KthA",
+    "argc": 3,
+    "alias": "KthA_L",
+    "condition": "KthA",
+    "dependencies": [
+      "KthA"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "strReplace",
+    "argc": 3,
+    "alias": "strReplace_L",
+    "condition": "strReplace",
+    "dependencies": [
+      "strReplace1",
+      "strReplace2"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "BIT_popcount",
+    "argc": 3,
+    "alias": "BIT_popcount_L",
+    "condition": "BIT_popcount",
+    "dependencies": [
+      "BIT_popcount"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "BIT_ctz",
+    "argc": 3,
+    "alias": "BIT_ctz_L",
+    "condition": "BIT_ctz",
+    "dependencies": [
+      "BIT_ctz"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "BIT_lowest",
+    "argc": 3,
+    "alias": "",
+    "condition": "BIT_lowest",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "BIT_nonlowest",
+    "argc": 3,
+    "alias": "",
+    "condition": "BIT_nonlowest",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "Prime",
+    "argc": 3,
+    "alias": "Prime_L",
+    "condition": "Prime",
+    "dependencies": [
+      "Prime"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Isqrt_f",
+    "argc": 3,
+    "alias": "Isqrt_f_L",
+    "condition": "Isqrt_f",
+    "dependencies": [
+      "Isqrt_f"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Isqrt_c",
+    "argc": 3,
+    "alias": "Isqrt_c_L",
+    "condition": "Isqrt_c",
+    "dependencies": [
+      "Isqrt_c"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Isqrt_s",
+    "argc": 3,
+    "alias": "Isqrt_s_L",
+    "condition": "Isqrt_s",
+    "dependencies": [
+      "Isqrt_s"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Icbrt_f",
+    "argc": 3,
+    "alias": "Icbrt_f_L",
+    "condition": "Icbrt_f",
+    "dependencies": [
+      "Icbrt_f"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Icbrt_c",
+    "argc": 3,
+    "alias": "Icbrt_c_L",
+    "condition": "Icbrt_c",
+    "dependencies": [
+      "Icbrt_c"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Icbrt_s",
+    "argc": 3,
+    "alias": "Icbrt_s_L",
+    "condition": "Icbrt_s",
+    "dependencies": [
+      "Icbrt_s"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Iroot_f",
+    "argc": 3,
+    "alias": "Iroot_f_L",
+    "condition": "Iroot_f",
+    "dependencies": [
+      "Iroot_f"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Iroot_c",
+    "argc": 3,
+    "alias": "Iroot_c_L",
+    "condition": "Iroot_c",
+    "dependencies": [
+      "Iroot_c"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Iroot_s",
+    "argc": 3,
+    "alias": "Iroot_s_L",
+    "condition": "Iroot_s",
+    "dependencies": [
+      "Iroot_s"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Ilog2_f",
+    "argc": 3,
+    "alias": "Ilog2_f_L",
+    "condition": "Ilog2_f",
+    "dependencies": [
+      "Ilog2_f"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Ilog2_c",
+    "argc": 3,
+    "alias": "Ilog2_c_L",
+    "condition": "Ilog2_c",
+    "dependencies": [
+      "Ilog2_c"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Ilog2_s",
+    "argc": 3,
+    "alias": "Ilog2_s_L",
+    "condition": "Ilog2_s",
+    "dependencies": [
+      "Ilog2_s"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Isqrt",
+    "argc": 3,
+    "alias": "Isqrt_f_L",
+    "condition": "Isqrt",
+    "dependencies": [
+      "Isqrt_f"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Icbrt",
+    "argc": 3,
+    "alias": "Icbrt_f_L",
+    "condition": "Icbrt",
+    "dependencies": [
+      "Icbrt_f"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Iroot",
+    "argc": 3,
+    "alias": "Iroot_f_L",
+    "condition": "Iroot",
+    "dependencies": [
+      "Iroot_f"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "primitiveRoot",
+    "argc": 3,
+    "alias": "",
+    "condition": "primitiveRoot",
+    "dependencies": [
+      "primitiveRoot"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "knightDistance",
+    "argc": 3,
+    "alias": "",
+    "condition": "knightDistance",
+    "dependencies": [
+      "knightDistance"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "LIS_length",
+    "argc": 3,
+    "alias": "",
+    "condition": "LIS_length",
+    "dependencies": [
+      "LIS_length"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "weaklyLIS_length",
+    "argc": 3,
+    "alias": "",
+    "condition": "weaklyLIS_length",
+    "dependencies": [
+      "weaklyLIS_length"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "LIS_ends",
+    "argc": 3,
+    "alias": "",
+    "condition": "LIS_ends",
+    "dependencies": [
+      "LIS_ends"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "weaklyLIS_ends",
+    "argc": 3,
+    "alias": "",
+    "condition": "weaklyLIS_ends",
+    "dependencies": [
+      "weaklyLIS_ends"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "longestSuffixPrefix",
+    "argc": 3,
+    "alias": "",
+    "condition": "longestSuffixPrefix",
+    "dependencies": [
+      "longestSuffixPrefix"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "SuffixArray",
+    "argc": 3,
+    "alias": "",
+    "condition": "SuffixArray",
+    "dependencies": [
+      "SuffixArray"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "smallestSubsequenceLengthK",
+    "argc": 3,
+    "alias": "",
+    "condition": "smallestSubsequenceLengthK",
+    "dependencies": [
+      "smallestSubsequenceLengthK"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "isSubstring",
+    "argc": 3,
+    "alias": "",
+    "condition": "isSubstring",
+    "dependencies": [
+      "isSubstring_string"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "isPalindrome",
+    "argc": 3,
+    "alias": "",
+    "condition": "isPalindrome",
+    "dependencies": [
+      "isPalindrome"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "rd_int",
+    "argc": 3,
+    "alias": "",
+    "condition": "rd_int",
+    "dependencies": [
+      "rd_int"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "rd_ll",
+    "argc": 3,
+    "alias": "",
+    "condition": "rd_ll",
+    "dependencies": [
+      "rd_ll"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "rd_string",
+    "argc": 3,
+    "alias": "",
+    "condition": "rd_string",
+    "dependencies": [
+      "rd_string"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "fDiv",
+    "argc": 3,
+    "alias": "",
+    "condition": "fDiv",
+    "dependencies": [
+      "fDiv"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "cDiv",
+    "argc": 3,
+    "alias": "",
+    "condition": "cDiv",
+    "dependencies": [
+      "cDiv"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "floor_sum",
+    "argc": 3,
+    "alias": "",
+    "condition": "floor_sum",
+    "dependencies": [
+      "floor_sum"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "floor_sum2",
+    "argc": 3,
+    "alias": "",
+    "condition": "floor_sum2",
+    "dependencies": [
+      "floor_sum2"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "graph_minColor",
+    "argc": 3,
+    "alias": "",
+    "condition": "graph_minColor",
+    "dependencies": [
+      "graph_minColor"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "xorMin",
+    "argc": 3,
+    "alias": "",
+    "condition": "xorMin",
+    "dependencies": [
+      "xorMin"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "xorMax",
+    "argc": 3,
+    "alias": "",
+    "condition": "xorMax",
+    "dependencies": [
+      "xorMax"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "calcRollingHash",
+    "argc": 3,
+    "alias": "",
+    "condition": "calcRollingHash",
+    "dependencies": [
+      "rollingHash"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "fft",
+    "argc": 3,
+    "alias": "",
+    "condition": "fft",
+    "dependencies": [
+      "fft"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "fft",
+    "argc": 3,
+    "alias": "",
+    "condition": "fft",
+    "dependencies": [
+      "fft-mint"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "fft",
+    "argc": 3,
+    "alias": "",
+    "condition": "fft",
+    "dependencies": [
+      "fft-Mint"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "fft",
+    "argc": 3,
+    "alias": "",
+    "condition": "fft",
+    "dependencies": [
+      "fft-modint"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "fft",
+    "argc": 3,
+    "alias": "",
+    "condition": "fft",
+    "dependencies": [
+      "fft-Modint"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "get_inv_mod",
+    "argc": 3,
+    "alias": "",
+    "condition": "get_inv_mod",
+    "dependencies": [
+      "get_inv_mod"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "extendedEuclid",
+    "argc": 3,
+    "alias": "",
+    "condition": "extendedEuclid",
+    "dependencies": [
+      "extendedEuclid"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "chineseRemainder",
+    "argc": 3,
+    "alias": "",
+    "condition": "chineseRemainder",
+    "dependencies": [
+      "chineseRemainder"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "writerDigit_double",
+    "argc": 3,
+    "alias": "",
+    "condition": "writerDigit_double",
+    "dependencies": [
+      "writer_double"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "arrcmp",
+    "argc": 3,
+    "alias": "",
+    "condition": "arrcmp",
+    "dependencies": [
+      "arrcmp"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "arrRot",
+    "argc": 3,
+    "alias": "",
+    "condition": "arrRot",
+    "dependencies": [
+      "arrRot"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Distinct",
+    "argc": 3,
+    "alias": "",
+    "condition": "Distinct",
+    "dependencies": [
+      "Distinct"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "arrInsert",
+    "argc": 3,
+    "alias": "",
+    "condition": "arrInsert",
+    "dependencies": [
+      "arrInsert"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "reduceFraction",
+    "argc": 3,
+    "alias": "",
+    "condition": "reduceFraction",
+    "dependencies": [
+      "reduceFraction"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "MoebiusTransform",
+    "argc": 3,
+    "alias": "",
+    "condition": "MoebiusTransform",
+    "dependencies": [
+      "MoebiusTransform"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "isVowel",
+    "argc": 3,
+    "alias": "",
+    "condition": "isVowel",
+    "dependencies": [
+      "isVowel"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "KMP",
+    "argc": 3,
+    "alias": "",
+    "condition": "KMP",
+    "dependencies": [
+      "KMP"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Hungarian",
+    "argc": 3,
+    "alias": "",
+    "condition": "Hungarian",
+    "dependencies": [
+      "Hungarian"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "counterSumIsLT",
+    "argc": 3,
+    "alias": "",
+    "condition": "counterSumIsLT",
+    "dependencies": [
+      "counterSumIsLT"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "counterProdIsLT",
+    "argc": 3,
+    "alias": "",
+    "condition": "counterProdIsLT",
+    "dependencies": [
+      "counterProdIsLT"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "counterD2SumIsLT",
+    "argc": 3,
+    "alias": "",
+    "condition": "counterD2SumIsLT",
+    "dependencies": [
+      "counterD2SumIsLT"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "counterM2SumIsLT",
+    "argc": 3,
+    "alias": "",
+    "condition": "counterM2SumIsLT",
+    "dependencies": [
+      "counterM2SumIsLT"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "counterD2ProdIsLT",
+    "argc": 3,
+    "alias": "",
+    "condition": "counterD2ProdIsLT",
+    "dependencies": [
+      "counterD2ProdIsLT"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "counterM2ProdIsLT",
+    "argc": 3,
+    "alias": "",
+    "condition": "counterM2ProdIsLT",
+    "dependencies": [
+      "counterM2ProdIsLT"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "HammingDistance",
+    "argc": 3,
+    "alias": "",
+    "condition": "HammingDistance",
+    "dependencies": [
+      "HammingDistance"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "editDistance",
+    "argc": 3,
+    "alias": "",
+    "condition": "editDistance",
+    "dependencies": [
+      "editDistance"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Cmod2",
+    "argc": 3,
+    "alias": "",
+    "condition": "Cmod2",
+    "dependencies": [
+      "Cmod2"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "next_mcomb",
+    "argc": 3,
+    "alias": "",
+    "condition": "next_mcomb",
+    "dependencies": [
+      "next_mcomb"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "next_scomb",
+    "argc": 3,
+    "alias": "",
+    "condition": "next_scomb",
+    "dependencies": [
+      "next_scomb"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "next_marr",
+    "argc": 3,
+    "alias": "",
+    "condition": "next_marr",
+    "dependencies": [
+      "next_marr"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "next_sarr",
+    "argc": 3,
+    "alias": "",
+    "condition": "next_sarr",
+    "dependencies": [
+      "next_sarr"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "next_sarr_s",
+    "argc": 3,
+    "alias": "",
+    "condition": "next_sarr_s",
+    "dependencies": [
+      "next_sarr_s"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "walloc1d",
+    "argc": 3,
+    "alias": "",
+    "condition": "walloc1d",
+    "dependencies": [
+      "walloc1d"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "walloc2d",
+    "argc": 3,
+    "alias": "",
+    "condition": "walloc2d",
+    "dependencies": [
+      "walloc2d"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "malloc1d",
+    "argc": 3,
+    "alias": "",
+    "condition": "malloc1d",
+    "dependencies": [
+      "malloc1d"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "free1d",
+    "argc": 3,
+    "alias": "",
+    "condition": "free1d",
+    "dependencies": [
+      "free1d"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "malloc2d",
+    "argc": 3,
+    "alias": "",
+    "condition": "malloc2d",
+    "dependencies": [
+      "malloc2d"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "free2d",
+    "argc": 3,
+    "alias": "",
+    "condition": "free2d",
+    "dependencies": [
+      "free2d"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "isPrime",
+    "argc": 3,
+    "alias": "",
+    "condition": "isPrime",
+    "dependencies": [
+      "isPrime"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Factor",
+    "argc": 3,
+    "alias": "",
+    "condition": "Factor",
+    "dependencies": [
+      "Factor"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "FactorM",
+    "argc": 3,
+    "alias": "",
+    "condition": "FactorM",
+    "dependencies": [
+      "FactorM"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Divisor",
+    "argc": 3,
+    "alias": "",
+    "condition": "Divisor",
+    "dependencies": [
+      "Divisor"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "DivisorSum",
+    "argc": 3,
+    "alias": "",
+    "condition": "DivisorSum",
+    "dependencies": [
+      "DivisorSum"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Moebius",
+    "argc": 3,
+    "alias": "",
+    "condition": "Moebius",
+    "dependencies": [
+      "Moebius"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "EulerPhi",
+    "argc": 3,
+    "alias": "",
+    "condition": "EulerPhi",
+    "dependencies": [
+      "EulerPhi"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "BIT_parity",
+    "argc": 3,
+    "alias": "",
+    "condition": "BIT_parity",
+    "dependencies": [
+      "BIT_parity"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "BIT_parity_pm",
+    "argc": 3,
+    "alias": "",
+    "condition": "BIT_parity_pm",
+    "dependencies": [
+      "BIT_parity_pm"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "prodDigits",
+    "argc": 3,
+    "alias": "",
+    "condition": "prodDigits",
+    "dependencies": [
+      "prodDigits"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "DigitHist",
+    "argc": 3,
+    "alias": "",
+    "condition": "DigitHist",
+    "dependencies": [
+      "DigitHist"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "invDigit_r",
+    "argc": 3,
+    "alias": "",
+    "condition": "invDigit_r",
+    "dependencies": [
+      "invDigit_r"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "STR2int",
+    "argc": 3,
+    "alias": "",
+    "condition": "STR2int",
+    "dependencies": [
+      "STR2int"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "STR2ll",
+    "argc": 3,
+    "alias": "",
+    "condition": "STR2ll",
+    "dependencies": [
+      "STR2ll"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "intervalSieve",
+    "argc": 3,
+    "alias": "",
+    "condition": "intervalSieve",
+    "dependencies": [
+      "intervalSieve"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "powmod",
+    "argc": 3,
+    "alias": "",
+    "condition": "powmod",
+    "dependencies": [
+      "powmod"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "PowMod",
+    "argc": 3,
+    "alias": "",
+    "condition": "PowMod",
+    "dependencies": [
+      "PowMod"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "runLength",
+    "argc": 3,
+    "alias": "",
+    "condition": "runLength",
+    "dependencies": [
+      "runLength"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "arrErase",
+    "argc": 3,
+    "alias": "",
+    "condition": "arrErase",
+    "dependencies": [
+      "arrErase"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "arrCountVal",
+    "argc": 3,
+    "alias": "",
+    "condition": "arrCountVal",
+    "dependencies": [
+      "arrCountVal"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "arrCountValSeqMax",
+    "argc": 3,
+    "alias": "",
+    "condition": "arrCountValSeqMax",
+    "dependencies": [
+      "arrCountValSeqMax"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "RoundUp",
+    "argc": 3,
+    "alias": "",
+    "condition": "RoundUp",
+    "dependencies": [
+      "RoundUp"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "RoundDown",
+    "argc": 3,
+    "alias": "",
+    "condition": "RoundDown",
+    "dependencies": [
+      "RoundDown"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Unique",
+    "argc": 3,
+    "alias": "",
+    "condition": "Unique",
+    "dependencies": [
+      "Unique"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "isSubsequence",
+    "argc": 3,
+    "alias": "",
+    "condition": "isSubsequence",
+    "dependencies": [
+      "isSubsequence"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "isSubsequence_r",
+    "argc": 3,
+    "alias": "",
+    "condition": "isSubsequence_r",
+    "dependencies": [
+      "isSubsequence_r"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "inversion_range",
+    "argc": 3,
+    "alias": "",
+    "condition": "inversion_range",
+    "dependencies": [
+      "inversion_range"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "inversion",
+    "argc": 3,
+    "alias": "",
+    "condition": "inversion",
+    "dependencies": [
+      "inversion"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "ZetaTransform2",
+    "argc": 3,
+    "alias": "",
+    "condition": "ZetaTransform2",
+    "dependencies": [
+      "ZetaTransform2"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "MoebiusTransform2",
+    "argc": 3,
+    "alias": "",
+    "condition": "MoebiusTransform2",
+    "dependencies": [
+      "MoebiusTransform2"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "HadamardTransform",
+    "argc": 3,
+    "alias": "",
+    "condition": "HadamardTransform",
+    "dependencies": [
+      "HadamardTransform"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "xorConvolution",
+    "argc": 3,
+    "alias": "",
+    "condition": "xorConvolution",
+    "dependencies": [
+      "xorConvolution"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "orConvolution",
+    "argc": 3,
+    "alias": "",
+    "condition": "orConvolution",
+    "dependencies": [
+      "orConvolution"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "andConvolution",
+    "argc": 3,
+    "alias": "",
+    "condition": "andConvolution",
+    "dependencies": [
+      "andConvolution"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "slideMin",
+    "argc": 3,
+    "alias": "",
+    "condition": "slideMin",
+    "dependencies": [
+      "slideMin"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "slideMax",
+    "argc": 3,
+    "alias": "",
+    "condition": "slideMax",
+    "dependencies": [
+      "slideMax"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "isLeapYear",
+    "argc": 3,
+    "alias": "",
+    "condition": "isLeapYear",
+    "dependencies": [
+      "isLeapYear"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "dayOfWeek",
+    "argc": 3,
+    "alias": "",
+    "condition": "dayOfWeek",
+    "dependencies": [
+      "dayOfWeek"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "dayOfWeekStr",
+    "argc": 3,
+    "alias": "",
+    "condition": "dayOfWeekStr",
+    "dependencies": [
+      "dayOfWeekStr"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "prevDay",
+    "argc": 3,
+    "alias": "",
+    "condition": "prevDay",
+    "dependencies": [
+      "prevDay"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "nextDay",
+    "argc": 3,
+    "alias": "",
+    "condition": "nextDay",
+    "dependencies": [
+      "nextDay"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "dayIndex",
+    "argc": 3,
+    "alias": "",
+    "condition": "dayIndex",
+    "dependencies": [
+      "dayIndex"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "dayFromIndex",
+    "argc": 3,
+    "alias": "",
+    "condition": "dayFromIndex",
+    "dependencies": [
+      "dayFromIndex"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "polationVal",
+    "argc": 3,
+    "alias": "",
+    "condition": "polationVal",
+    "dependencies": [
+      "polationVal"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "TSP_cycle",
+    "argc": 3,
+    "alias": "",
+    "condition": "TSP_cycle",
+    "dependencies": [
+      "TSP_cycle"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "TSP_path",
+    "argc": 3,
+    "alias": "",
+    "condition": "TSP_path",
+    "dependencies": [
+      "TSP_path"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "TSP_path_s",
+    "argc": 3,
+    "alias": "",
+    "condition": "TSP_path_s",
+    "dependencies": [
+      "TSP_path_s"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "maxSubsetDP",
+    "argc": 3,
+    "alias": "",
+    "condition": "maxSubsetDP",
+    "dependencies": [
+      "maxSubsetDP"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "maxRectArea",
+    "argc": 3,
+    "alias": "",
+    "condition": "maxRectArea",
+    "dependencies": [
+      "maxRectArea"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "isValidBracket1",
+    "argc": 3,
+    "alias": "",
+    "condition": "isValidBracket1",
+    "dependencies": [
+      "isValidBracket1"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "isValidBracket2",
+    "argc": 3,
+    "alias": "",
+    "condition": "isValidBracket2",
+    "dependencies": [
+      "isValidBracket2"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "swapV",
+    "argc": 3,
+    "alias": "",
+    "condition": "swapV",
+    "dependencies": [
+      "swapV"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "cntSubarrayFreq",
+    "argc": 3,
+    "alias": "",
+    "condition": "cntSubarrayFreq",
+    "dependencies": [
+      "cntSubarrayFreq"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "cntSubarrayDistinct",
+    "argc": 3,
+    "alias": "",
+    "condition": "cntSubarrayDistinct",
+    "dependencies": [
+      "cntSubarrayDistinct"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "maxSubarrayDistinct",
+    "argc": 3,
+    "alias": "",
+    "condition": "maxSubarrayDistinct",
+    "dependencies": [
+      "maxSubarrayDistinct"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "vec2arr",
+    "argc": 3,
+    "alias": "",
+    "condition": "vec2arr",
+    "dependencies": [
+      "vec2arr"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Rot90",
+    "argc": 3,
+    "alias": "",
+    "condition": "Rot90",
+    "dependencies": [
+      "Rot90"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "minFactorList",
+    "argc": 3,
+    "alias": "",
+    "condition": "minFactorList",
+    "dependencies": [
+      "minFactorList"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "maxFactorList",
+    "argc": 3,
+    "alias": "",
+    "condition": "maxFactorList",
+    "dependencies": [
+      "maxFactorList"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "FactorList",
+    "argc": 3,
+    "alias": "",
+    "condition": "FactorList",
+    "dependencies": [
+      "FactorList"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "FactorMList",
+    "argc": 3,
+    "alias": "",
+    "condition": "FactorMList",
+    "dependencies": [
+      "FactorMList"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "EulerPhiList",
+    "argc": 3,
+    "alias": "",
+    "condition": "EulerPhiList",
+    "dependencies": [
+      "EulerPhiList"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "LinearEquationMod2",
+    "argc": 3,
+    "alias": "",
+    "condition": "LinearEquationMod2",
+    "dependencies": [
+      "LinearEquationMod2"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "LinearEquation",
+    "argc": 3,
+    "alias": "",
+    "condition": "LinearEquation",
+    "dependencies": [
+      "LinearEquation"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "LexicographicGE",
+    "argc": 3,
+    "alias": "",
+    "condition": "LexicographicGE",
+    "dependencies": [
+      "LexicographicGE"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "cReader_ll",
+    "argc": 3,
+    "alias": "",
+    "condition": "cReader_ll",
+    "dependencies": [
+      "cReader_ll"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "cReader_eof",
+    "argc": 3,
+    "alias": "",
+    "condition": "cReader_eof",
+    "dependencies": [
+      "cReader_eof"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "cntPrime",
+    "argc": 3,
+    "alias": "",
+    "condition": "cntPrime",
+    "dependencies": [
+      "cntPrime"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "arrMerge",
+    "argc": 3,
+    "alias": "",
+    "condition": "arrMerge",
+    "dependencies": [
+      "arrMerge"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "arrMergeD",
+    "argc": 3,
+    "alias": "",
+    "condition": "arrMergeD",
+    "dependencies": [
+      "arrMergeD"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "popFirst",
+    "argc": 3,
+    "alias": "",
+    "condition": "popFirst",
+    "dependencies": [
+      "multiset_popFirst"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getFirst",
+    "argc": 3,
+    "alias": "",
+    "condition": "getFirst",
+    "dependencies": [
+      "multiset_getFirst"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "popLast",
+    "argc": 3,
+    "alias": "",
+    "condition": "popLast",
+    "dependencies": [
+      "multiset_popLast"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getLast",
+    "argc": 3,
+    "alias": "",
+    "condition": "getLast",
+    "dependencies": [
+      "multiset_getLast"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "popFirst",
+    "argc": 3,
+    "alias": "",
+    "condition": "popFirst",
+    "dependencies": [
+      "set_popFirst"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getFirst",
+    "argc": 3,
+    "alias": "",
+    "condition": "getFirst",
+    "dependencies": [
+      "set_getFirst"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "popLast",
+    "argc": 3,
+    "alias": "",
+    "condition": "popLast",
+    "dependencies": [
+      "set_popLast"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getLast",
+    "argc": 3,
+    "alias": "",
+    "condition": "getLast",
+    "dependencies": [
+      "set_getLast"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getClosest",
+    "argc": 3,
+    "alias": "",
+    "condition": "getClosest",
+    "dependencies": [
+      "multiset_getClosest"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getClosestL",
+    "argc": 3,
+    "alias": "",
+    "condition": "getClosestL",
+    "dependencies": [
+      "multiset_getClosestL"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getClosest",
+    "argc": 3,
+    "alias": "",
+    "condition": "getClosest",
+    "dependencies": [
+      "set_getClosest"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getClosestL",
+    "argc": 3,
+    "alias": "",
+    "condition": "getClosestL",
+    "dependencies": [
+      "set_getClosestL"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getClosest",
+    "argc": 3,
+    "alias": "",
+    "condition": "getClosest",
+    "dependencies": [
+      "arr_getClosest"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getClosestL",
+    "argc": 3,
+    "alias": "",
+    "condition": "getClosestL",
+    "dependencies": [
+      "arr_getClosestL"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setEdge",
+    "argc": 3,
+    "alias": "",
+    "condition": "setEdge",
+    "dependencies": [
+      "graph_setEdge"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setDirectEdge",
+    "argc": 3,
+    "alias": "",
+    "condition": "setDirectEdge",
+    "dependencies": [
+      "graph_setDirectEdge"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setEdgeRootedTree",
+    "argc": 3,
+    "alias": "",
+    "condition": "setEdgeRootedTree",
+    "dependencies": [
+      "graph_setEdgeRootedTree"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "reverse",
+    "argc": 3,
+    "alias": "",
+    "condition": "reverse",
+    "dependencies": [
+      "graph_reverse"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "reduce",
+    "argc": 3,
+    "alias": "",
+    "condition": "reduce",
+    "dependencies": [
+      "graph_reduce"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getDist",
+    "argc": 3,
+    "alias": "",
+    "condition": "getDist",
+    "dependencies": [
+      "graph_getDist"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "TreeDiameter",
+    "argc": 3,
+    "alias": "",
+    "condition": "TreeDiameter",
+    "dependencies": [
+      "graph_TreeDiameter"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getDistTree_WeightedNode_max",
+    "argc": 3,
+    "alias": "",
+    "condition": "getDistTree_WeightedNode_max",
+    "dependencies": [
+      "graph_getDistTree_WeightedNode_max"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getDistPairMatrix",
+    "argc": 3,
+    "alias": "",
+    "condition": "getDistPairMatrix",
+    "dependencies": [
+      "graph_getDistPairMatrix"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "SubTreeSize",
+    "argc": 3,
+    "alias": "",
+    "condition": "SubTreeSize",
+    "dependencies": [
+      "graph_SubTreeSize"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "SubTreeWeight",
+    "argc": 3,
+    "alias": "",
+    "condition": "SubTreeWeight",
+    "dependencies": [
+      "graph_SubTreeWeight"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "cntShortest",
+    "argc": 3,
+    "alias": "",
+    "condition": "cntShortest",
+    "dependencies": [
+      "graph_cntShortest"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "scc",
+    "argc": 3,
+    "alias": "",
+    "condition": "scc",
+    "dependencies": [
+      "graph_scc"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "bcc",
+    "argc": 3,
+    "alias": "",
+    "condition": "bcc",
+    "dependencies": [
+      "graph_bcc"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "articulation",
+    "argc": 3,
+    "alias": "",
+    "condition": "articulation",
+    "dependencies": [
+      "graph_articulation"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "shortestPath",
+    "argc": 3,
+    "alias": "",
+    "condition": "shortestPath",
+    "dependencies": [
+      "graph_shortestPath"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "TopologicalSort",
+    "argc": 3,
+    "alias": "",
+    "condition": "TopologicalSort",
+    "dependencies": [
+      "graph_TopologicalSort"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "longestPath_length",
+    "argc": 3,
+    "alias": "",
+    "condition": "longestPath_length",
+    "dependencies": [
+      "graph_longestPath_length"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Grundy",
+    "argc": 3,
+    "alias": "",
+    "condition": "Grundy",
+    "dependencies": [
+      "graph_Grundy"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "preorder",
+    "argc": 3,
+    "alias": "",
+    "condition": "preorder",
+    "dependencies": [
+      "graph_preorder"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "anUndirectedCycle",
+    "argc": 3,
+    "alias": "",
+    "condition": "anUndirectedCycle",
+    "dependencies": [
+      "graph_anUndirectedCycle"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "shortestCycle",
+    "argc": 3,
+    "alias": "",
+    "condition": "shortestCycle",
+    "dependencies": [
+      "graph_shortestCycle"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "shortestUndirectedCycle_length",
+    "argc": 3,
+    "alias": "",
+    "condition": "shortestUndirectedCycle_length",
+    "dependencies": [
+      "graph_shortestUndirectedCycle_length"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "shortestUndirectedCycle_length",
+    "argc": 3,
+    "alias": "",
+    "condition": "shortestUndirectedCycle_length",
+    "dependencies": [
+      "graph_shortestUndirectedCycle_length_node"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "maxIndependenceSet",
+    "argc": 3,
+    "alias": "",
+    "condition": "maxIndependenceSet",
+    "dependencies": [
+      "graph_maxIndependenceSet"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "countIndependenceSet",
+    "argc": 3,
+    "alias": "",
+    "condition": "countIndependenceSet",
+    "dependencies": [
+      "graph_countIndependenceSet"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "bipartite",
+    "argc": 3,
+    "alias": "",
+    "condition": "bipartite",
+    "dependencies": [
+      "graph_bipartite"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Rerooting",
+    "argc": 3,
+    "alias": "",
+    "condition": "Rerooting",
+    "dependencies": [
+      "graph_Rerooting"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setEdge",
+    "argc": 3,
+    "alias": "",
+    "condition": "setEdge",
+    "dependencies": [
+      "wgraph_setEdge"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setDirectEdge",
+    "argc": 3,
+    "alias": "",
+    "condition": "setDirectEdge",
+    "dependencies": [
+      "wgraph_setDirectEdge"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setEdgeRootedTree",
+    "argc": 3,
+    "alias": "",
+    "condition": "setEdgeRootedTree",
+    "dependencies": [
+      "wgraph_setEdgeRootedTree"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getDist",
+    "argc": 3,
+    "alias": "",
+    "condition": "getDist",
+    "dependencies": [
+      "wgraph_getDist"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getDistDense",
+    "argc": 3,
+    "alias": "",
+    "condition": "getDistDense",
+    "dependencies": [
+      "wgraph_getDistDense"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getDistForest",
+    "argc": 3,
+    "alias": "",
+    "condition": "getDistForest",
+    "dependencies": [
+      "wgraph_getDistForest"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "BellmanFord",
+    "argc": 3,
+    "alias": "",
+    "condition": "BellmanFord",
+    "dependencies": [
+      "wgraph_BellmanFord"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getDist01",
+    "argc": 3,
+    "alias": "",
+    "condition": "getDist01",
+    "dependencies": [
+      "wgraph_getDist01"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "MST_Prim_cost",
+    "argc": 3,
+    "alias": "",
+    "condition": "MST_Prim_cost",
+    "dependencies": [
+      "wgraph_MST_Prim_cost"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Rerooting",
+    "argc": 3,
+    "alias": "",
+    "condition": "Rerooting",
+    "dependencies": [
+      "wgraph_Rerooting"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "numOfDaysInMonth",
+    "argc": 3,
+    "alias": "",
+    "condition": "numOfDaysInMonth",
+    "dependencies": [
+      "numOfDaysInMonth1"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "numOfDaysInMonth",
+    "argc": 3,
+    "alias": "",
+    "condition": "numOfDaysInMonth",
+    "dependencies": [
+      "numOfDaysInMonth2"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getSum",
+    "argc": 3,
+    "alias": "",
+    "condition": "getSum",
+    "dependencies": [
+      "Arr1d_getSum"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setSum",
+    "argc": 3,
+    "alias": "",
+    "condition": "setSum",
+    "dependencies": [
+      "Arr1d_getSum"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setConstLenLeft",
+    "argc": 3,
+    "alias": "",
+    "condition": "setConstLenLeft",
+    "dependencies": [
+      "Arr1d_ConstLenLeft"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "ConstLenLeft",
+    "argc": 3,
+    "alias": "",
+    "condition": "ConstLenLeft",
+    "dependencies": [
+      "Arr1d_ConstLenLeft"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "ConstLenLeftCyclic",
+    "argc": 3,
+    "alias": "",
+    "condition": "ConstLenLeftCyclic",
+    "dependencies": [
+      "Arr1d_ConstLenLeft"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setConstLenRight",
+    "argc": 3,
+    "alias": "",
+    "condition": "setConstLenRight",
+    "dependencies": [
+      "Arr1d_ConstLenRight"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "ConstLenRight",
+    "argc": 3,
+    "alias": "",
+    "condition": "ConstLenRight",
+    "dependencies": [
+      "Arr1d_ConstLenRight"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "ConstLenRightCyclic",
+    "argc": 3,
+    "alias": "",
+    "condition": "ConstLenRightCyclic",
+    "dependencies": [
+      "Arr1d_ConstLenRight"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setDHist",
+    "argc": 3,
+    "alias": "",
+    "condition": "setDHist",
+    "dependencies": [
+      "Arr1d_dHist"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "dHist",
+    "argc": 3,
+    "alias": "",
+    "condition": "dHist",
+    "dependencies": [
+      "Arr1d_dHist"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setSHist",
+    "argc": 3,
+    "alias": "",
+    "condition": "setSHist",
+    "dependencies": [
+      "Arr1d_sHist"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "sHist",
+    "argc": 3,
+    "alias": "",
+    "condition": "sHist",
+    "dependencies": [
+      "Arr1d_sHist"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setPrevLE",
+    "argc": 3,
+    "alias": "",
+    "condition": "setPrevLE",
+    "dependencies": [
+      "Arr1d_PrevLE"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "PrevLE",
+    "argc": 3,
+    "alias": "",
+    "condition": "PrevLE",
+    "dependencies": [
+      "Arr1d_PrevLE"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setPrevLT",
+    "argc": 3,
+    "alias": "",
+    "condition": "setPrevLT",
+    "dependencies": [
+      "Arr1d_PrevLT"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "PrevLT",
+    "argc": 3,
+    "alias": "",
+    "condition": "PrevLT",
+    "dependencies": [
+      "Arr1d_PrevLT"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setPrevGE",
+    "argc": 3,
+    "alias": "",
+    "condition": "setPrevGE",
+    "dependencies": [
+      "Arr1d_PrevGE"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "PrevGE",
+    "argc": 3,
+    "alias": "",
+    "condition": "PrevGE",
+    "dependencies": [
+      "Arr1d_PrevGE"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setPrevGT",
+    "argc": 3,
+    "alias": "",
+    "condition": "setPrevGT",
+    "dependencies": [
+      "Arr1d_PrevGT"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "PrevGT",
+    "argc": 3,
+    "alias": "",
+    "condition": "PrevGT",
+    "dependencies": [
+      "Arr1d_PrevGT"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setNextLE",
+    "argc": 3,
+    "alias": "",
+    "condition": "setNextLE",
+    "dependencies": [
+      "Arr1d_NextLE"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "NextLE",
+    "argc": 3,
+    "alias": "",
+    "condition": "NextLE",
+    "dependencies": [
+      "Arr1d_NextLE"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setNextLT",
+    "argc": 3,
+    "alias": "",
+    "condition": "setNextLT",
+    "dependencies": [
+      "Arr1d_NextLT"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "NextLT",
+    "argc": 3,
+    "alias": "",
+    "condition": "NextLT",
+    "dependencies": [
+      "Arr1d_NextLT"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setNextGE",
+    "argc": 3,
+    "alias": "",
+    "condition": "setNextGE",
+    "dependencies": [
+      "Arr1d_NextGE"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "NextGE",
+    "argc": 3,
+    "alias": "",
+    "condition": "NextGE",
+    "dependencies": [
+      "Arr1d_NextGE"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setNextGT",
+    "argc": 3,
+    "alias": "",
+    "condition": "setNextGT",
+    "dependencies": [
+      "Arr1d_NextGT"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "NextGT",
+    "argc": 3,
+    "alias": "",
+    "condition": "NextGT",
+    "dependencies": [
+      "Arr1d_NextGT"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getSum",
+    "argc": 3,
+    "alias": "",
+    "condition": "getSum",
+    "dependencies": [
+      "Arr2d_getSum"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getSumBorder",
+    "argc": 3,
+    "alias": "",
+    "condition": "getSumBorder",
+    "dependencies": [
+      "Arr2d_getSum"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getSum45",
+    "argc": 3,
+    "alias": "",
+    "condition": "getSum45",
+    "dependencies": [
+      "Arr2d_getSum45"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getSum45Border",
+    "argc": 3,
+    "alias": "",
+    "condition": "getSum45Border",
+    "dependencies": [
+      "Arr2d_getSum45"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setConstLenLeft",
+    "argc": 3,
+    "alias": "",
+    "condition": "setConstLenLeft",
+    "dependencies": [
+      "Arr2d_ConstLenLeft"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "ConstLenLeft",
+    "argc": 3,
+    "alias": "",
+    "condition": "ConstLenLeft",
+    "dependencies": [
+      "Arr2d_ConstLenLeft"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setConstLenRight",
+    "argc": 3,
+    "alias": "",
+    "condition": "setConstLenRight",
+    "dependencies": [
+      "Arr2d_ConstLenRight"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "ConstLenRight",
+    "argc": 3,
+    "alias": "",
+    "condition": "ConstLenRight",
+    "dependencies": [
+      "Arr2d_ConstLenRight"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setConstLenUp",
+    "argc": 3,
+    "alias": "",
+    "condition": "setConstLenUp",
+    "dependencies": [
+      "Arr2d_ConstLenUp"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "ConstLenUp",
+    "argc": 3,
+    "alias": "",
+    "condition": "ConstLenUp",
+    "dependencies": [
+      "Arr2d_ConstLenUp"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "setConstLenDown",
+    "argc": 3,
+    "alias": "",
+    "condition": "setConstLenDown",
+    "dependencies": [
+      "Arr2d_ConstLenDown"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "ConstLenDown",
+    "argc": 3,
+    "alias": "",
+    "condition": "ConstLenDown",
+    "dependencies": [
+      "Arr2d_ConstLenDown"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "InnerProd",
+    "argc": 3,
+    "alias": "",
+    "condition": "InnerProd",
+    "dependencies": [
+      "Point2d_InnerProd"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "CrossProd",
+    "argc": 3,
+    "alias": "",
+    "condition": "CrossProd",
+    "dependencies": [
+      "Point2d_CrossProd"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "xysortA",
+    "argc": 3,
+    "alias": "",
+    "condition": "xysortA",
+    "dependencies": [
+      "Point2d_xysortA"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "argsortA",
+    "argc": 3,
+    "alias": "",
+    "condition": "argsortA",
+    "dependencies": [
+      "Point2d_argsortA"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "CCW",
+    "argc": 3,
+    "alias": "",
+    "condition": "CCW",
+    "dependencies": [
+      "Point2d_CCW"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "ConvexHull_sorted",
+    "argc": 3,
+    "alias": "",
+    "condition": "ConvexHull_sorted",
+    "dependencies": [
+      "Point2d_ConvexHull"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "ConvexHull",
+    "argc": 3,
+    "alias": "",
+    "condition": "ConvexHull",
+    "dependencies": [
+      "Point2d_ConvexHull"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "PolygonArea2",
+    "argc": 3,
+    "alias": "",
+    "condition": "PolygonArea2",
+    "dependencies": [
+      "Point2d_PolygonArea2"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Determinant",
+    "argc": 3,
+    "alias": "",
+    "condition": "Determinant",
+    "dependencies": [
+      "Determinant_Modint"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Determinant",
+    "argc": 3,
+    "alias": "",
+    "condition": "Determinant",
+    "dependencies": [
+      "Determinant_modint"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Determinant",
+    "argc": 3,
+    "alias": "",
+    "condition": "Determinant",
+    "dependencies": [
+      "Determinant_Mint"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Determinant",
+    "argc": 3,
+    "alias": "",
+    "condition": "Determinant",
+    "dependencies": [
+      "Determinant_mint"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "cntSubsequence",
+    "argc": 4,
+    "alias": "",
+    "condition": "cntSubsequence",
+    "dependencies": [
+      "cntSubsequence"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "sumPrime",
+    "argc": 4,
+    "alias": "",
+    "condition": "sumPrime",
+    "dependencies": [
+      "sumPrime"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "getDistT",
+    "argc": 3,
+    "alias": "",
+    "condition": "getDistT",
+    "dependencies": [
+      "wgraph_getDistT"
+    ],
+    "subargc": 0
+  }
+]
