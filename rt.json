@@ -1,0 +1,314 @@
+[
+  {
+    "Type": "Mint",
+    "dependencies": [
+      "reader_Mint",
+      "reader_Mint"
+    ]
+  },
+  {
+    "Type": "Modint",
+    "dependencies": [
+      "reader_Modint",
+      "reader_Modint"
+    ]
+  },
+  {
+    "Type": "__int128_t",
+    "dependencies": [
+      "reader_int",
+      "reader_ll",
+      "reader_int128",
+      "reader_int",
+      "reader_ll",
+      "reader_int128"
+    ]
+  },
+  {
+    "Type": "__int16_t",
+    "dependencies": [
+      "reader_int",
+      "reader_ll",
+      "reader_int128",
+      "reader_int",
+      "reader_ll",
+      "reader_int128"
+    ]
+  },
+  {
+    "Type": "__int32_t",
+    "dependencies": [
+      "reader_int",
+      "reader_ll",
+      "reader_int128",
+      "reader_int",
+      "reader_ll",
+      "reader_int128"
+    ]
+  },
+  {
+    "Type": "__int64_t",
+    "dependencies": [
+      "reader_int",
+      "reader_ll",
+      "reader_int128",
+      "reader_int",
+      "reader_ll",
+      "reader_int128"
+    ]
+  },
+  {
+    "Type": "__int8_t",
+    "dependencies": [
+      "reader_int",
+      "reader_ll",
+      "reader_int128",
+      "reader_int",
+      "reader_ll",
+      "reader_int128"
+    ]
+  },
+  {
+    "Type": "__uint128_t",
+    "dependencies": [
+      "reader_unsigned",
+      "reader_ull",
+      "reader_uint128",
+      "reader_unsigned",
+      "reader_ull",
+      "reader_uint128"
+    ]
+  },
+  {
+    "Type": "__uint16_t",
+    "dependencies": [
+      "reader_unsigned",
+      "reader_ull",
+      "reader_uint128",
+      "reader_unsigned",
+      "reader_ull",
+      "reader_uint128"
+    ]
+  },
+  {
+    "Type": "__uint32_t",
+    "dependencies": [
+      "reader_unsigned",
+      "reader_ull",
+      "reader_uint128",
+      "reader_unsigned",
+      "reader_ull",
+      "reader_uint128"
+    ]
+  },
+  {
+    "Type": "__uint64_t",
+    "dependencies": [
+      "reader_unsigned",
+      "reader_ull",
+      "reader_uint128",
+      "reader_unsigned",
+      "reader_ull",
+      "reader_uint128"
+    ]
+  },
+  {
+    "Type": "__uint8_t",
+    "dependencies": [
+      "reader_unsigned",
+      "reader_ull",
+      "reader_uint128",
+      "reader_unsigned",
+      "reader_ull",
+      "reader_uint128"
+    ]
+  },
+  {
+    "Type": "char",
+    "dependencies": [
+      "reader_char",
+      "reader_char_array",
+      "reader_char",
+      "reader_char_array"
+    ]
+  },
+  {
+    "Type": "double",
+    "dependencies": [
+      "reader_double",
+      "reader_double"
+    ]
+  },
+  {
+    "Type": "int",
+    "dependencies": [
+      "reader_int",
+      "reader_int"
+    ]
+  },
+  {
+    "Type": "int16_t",
+    "dependencies": [
+      "reader_int",
+      "reader_ll",
+      "reader_int128",
+      "reader_int",
+      "reader_ll",
+      "reader_int128"
+    ]
+  },
+  {
+    "Type": "int32_t",
+    "dependencies": [
+      "reader_int",
+      "reader_ll",
+      "reader_int128",
+      "reader_int",
+      "reader_ll",
+      "reader_int128"
+    ]
+  },
+  {
+    "Type": "int64_t",
+    "dependencies": [
+      "reader_int",
+      "reader_ll",
+      "reader_int128",
+      "reader_int",
+      "reader_ll",
+      "reader_int128"
+    ]
+  },
+  {
+    "Type": "int8_t",
+    "dependencies": [
+      "reader_int",
+      "reader_ll",
+      "reader_int128",
+      "reader_int",
+      "reader_ll",
+      "reader_int128"
+    ]
+  },
+  {
+    "Type": "long long",
+    "dependencies": [
+      "reader_ll",
+      "reader_ll"
+    ]
+  },
+  {
+    "Type": "mint",
+    "dependencies": [
+      "reader_mint",
+      "reader_mint"
+    ]
+  },
+  {
+    "Type": "modint",
+    "dependencies": [
+      "reader_modint",
+      "reader_modint"
+    ]
+  },
+  {
+    "Type": "signed",
+    "dependencies": [
+      "reader_int",
+      "reader_int"
+    ]
+  },
+  {
+    "Type": "signed int",
+    "dependencies": [
+      "reader_int",
+      "reader_int"
+    ]
+  },
+  {
+    "Type": "string",
+    "dependencies": [
+      "reader_string",
+      "reader_string"
+    ]
+  },
+  {
+    "Type": "uint",
+    "dependencies": [
+      "reader_unsigned",
+      "reader_unsigned"
+    ]
+  },
+  {
+    "Type": "uint16_t",
+    "dependencies": [
+      "reader_unsigned",
+      "reader_ull",
+      "reader_uint128",
+      "reader_unsigned",
+      "reader_ull",
+      "reader_uint128"
+    ]
+  },
+  {
+    "Type": "uint32_t",
+    "dependencies": [
+      "reader_unsigned",
+      "reader_ull",
+      "reader_uint128",
+      "reader_unsigned",
+      "reader_ull",
+      "reader_uint128"
+    ]
+  },
+  {
+    "Type": "uint64_t",
+    "dependencies": [
+      "reader_unsigned",
+      "reader_ull",
+      "reader_uint128",
+      "reader_unsigned",
+      "reader_ull",
+      "reader_uint128"
+    ]
+  },
+  {
+    "Type": "uint8_t",
+    "dependencies": [
+      "reader_unsigned",
+      "reader_ull",
+      "reader_uint128",
+      "reader_unsigned",
+      "reader_ull",
+      "reader_uint128"
+    ]
+  },
+  {
+    "Type": "ull",
+    "dependencies": [
+      "reader_ull",
+      "reader_ull"
+    ]
+  },
+  {
+    "Type": "unsigned",
+    "dependencies": [
+      "reader_unsigned",
+      "reader_unsigned"
+    ]
+  },
+  {
+    "Type": "unsigned int",
+    "dependencies": [
+      "reader_unsigned",
+      "reader_unsigned"
+    ]
+  },
+  {
+    "Type": "unsigned long long",
+    "dependencies": [
+      "reader_ull",
+      "reader_ull"
+    ]
+  }
+]
