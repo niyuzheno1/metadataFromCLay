@@ -1,0 +1,850 @@
+[
+  {
+    "name": "",
+    "argc": 0,
+    "alias": "",
+    "condition": "",
+    "dependencies": [],
+    "subargc": 0
+  },
+  {
+    "name": "__int128_t",
+    "argc": 0,
+    "alias": "",
+    "condition": "__int128_t",
+    "dependencies": [
+      "__int128_t"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "__uint128_t",
+    "argc": 0,
+    "alias": "",
+    "condition": "__uint128_t",
+    "dependencies": [
+      "__uint128_t"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "MD",
+    "argc": 0,
+    "alias": "",
+    "condition": "MD",
+    "dependencies": [
+      "define_MD"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "PI",
+    "argc": 0,
+    "alias": "",
+    "condition": "PI",
+    "dependencies": [
+      "define_PI"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Timer",
+    "argc": 0,
+    "alias": "",
+    "condition": "Timer",
+    "dependencies": [
+      "Timer"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Rand",
+    "argc": 0,
+    "alias": "",
+    "condition": "Rand",
+    "dependencies": [
+      "Rand"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "combination_mint",
+    "argc": 0,
+    "alias": "",
+    "condition": "combination_mint",
+    "dependencies": [
+      "combination_mint"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Heap",
+    "argc": 0,
+    "alias": "",
+    "condition": "Heap",
+    "dependencies": [
+      "Heap"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Heap_max",
+    "argc": 0,
+    "alias": "",
+    "condition": "Heap_max",
+    "dependencies": [
+      "Heap_max"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "LHeap",
+    "argc": 0,
+    "alias": "",
+    "condition": "LHeap",
+    "dependencies": [
+      "LHeap"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "twoMultisets",
+    "argc": 0,
+    "alias": "",
+    "condition": "twoMultisets",
+    "dependencies": [
+      "twoMultisets"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "segtree_Point_Minval",
+    "argc": 0,
+    "alias": "",
+    "condition": "segtree_Point_Minval",
+    "dependencies": [
+      "segtree_Point_Minval"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "segtree_Point_Maxval",
+    "argc": 0,
+    "alias": "",
+    "condition": "segtree_Point_Maxval",
+    "dependencies": [
+      "segtree_Point_Maxval"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "segtree_Point_Min",
+    "argc": 0,
+    "alias": "",
+    "condition": "segtree_Point_Min",
+    "dependencies": [
+      "segtree_Point_Min"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "segtree_Point_SumMin",
+    "argc": 0,
+    "alias": "",
+    "condition": "segtree_Point_SumMin",
+    "dependencies": [
+      "segtree_Point_SumMin"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "segtree_Point_Prod",
+    "argc": 0,
+    "alias": "",
+    "condition": "segtree_Point_Prod",
+    "dependencies": [
+      "segtree_Point_Prod"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "segtree_Point_Minval2",
+    "argc": 0,
+    "alias": "",
+    "condition": "segtree_Point_Minval2",
+    "dependencies": [
+      "segtree_Point_Minval2"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "segtree_Point_Or",
+    "argc": 0,
+    "alias": "",
+    "condition": "segtree_Point_Or",
+    "dependencies": [
+      "segtree_Point_Or"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "segtree_Point_And",
+    "argc": 0,
+    "alias": "",
+    "condition": "segtree_Point_And",
+    "dependencies": [
+      "segtree_Point_And"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "segtree_Point_Xor",
+    "argc": 0,
+    "alias": "",
+    "condition": "segtree_Point_Xor",
+    "dependencies": [
+      "segtree_Point_Xor"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "segtree_Add_Minval",
+    "argc": 0,
+    "alias": "",
+    "condition": "segtree_Add_Minval",
+    "dependencies": [
+      "segtree_Add_Minval"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "segtree_ChangeAdd_Sum",
+    "argc": 0,
+    "alias": "",
+    "condition": "segtree_ChangeAdd_Sum",
+    "dependencies": [
+      "segtree_ChangeAdd_Sum"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "segtree_ChangeP1add_Sum",
+    "argc": 0,
+    "alias": "",
+    "condition": "segtree_ChangeP1add_Sum",
+    "dependencies": [
+      "segtree_ChangeP1add_Sum"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "segtree_pg",
+    "argc": 0,
+    "alias": "",
+    "condition": "segtree_pg",
+    "dependencies": [
+      "segtree_pg"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "segtree_ph",
+    "argc": 0,
+    "alias": "",
+    "condition": "segtree_ph",
+    "dependencies": [
+      "segtree_ph"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "segtree_rg",
+    "argc": 0,
+    "alias": "",
+    "condition": "segtree_rg",
+    "dependencies": [
+      "segtree_rg"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "segtree_rh",
+    "argc": 0,
+    "alias": "",
+    "condition": "segtree_rh",
+    "dependencies": [
+      "segtree_rh"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "static_segtree_Add_At",
+    "argc": 0,
+    "alias": "",
+    "condition": "static_segtree_Add_At",
+    "dependencies": [
+      "static_segtree_Add_At"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "HLD",
+    "argc": 0,
+    "alias": "",
+    "condition": "HLD",
+    "dependencies": [
+      "HLD"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "HLD_fenwick",
+    "argc": 0,
+    "alias": "",
+    "condition": "HLD_fenwick",
+    "dependencies": [
+      "HLD_fenwick"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "HLD_segtree",
+    "argc": 0,
+    "alias": "",
+    "condition": "HLD_segtree",
+    "dependencies": [
+      "HLD_segtree"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Matrix",
+    "argc": 0,
+    "alias": "",
+    "condition": "Matrix",
+    "dependencies": [
+      "Matrix"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Permutation",
+    "argc": 0,
+    "alias": "",
+    "condition": "Permutation",
+    "dependencies": [
+      "Permutation"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "IntMap",
+    "argc": 0,
+    "alias": "",
+    "condition": "IntMap",
+    "dependencies": [
+      "IntMap"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Trie",
+    "argc": 0,
+    "alias": "",
+    "condition": "Trie",
+    "dependencies": [
+      "Trie"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "AhoCorasick",
+    "argc": 0,
+    "alias": "",
+    "condition": "AhoCorasick",
+    "dependencies": [
+      "AhoCorasick"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "AhoCorasick_Sum",
+    "argc": 0,
+    "alias": "",
+    "condition": "AhoCorasick_Sum",
+    "dependencies": [
+      "AhoCorasick_Sum"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Grid1d",
+    "argc": 0,
+    "alias": "",
+    "condition": "Grid1d",
+    "dependencies": [
+      "Grid1d"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Grid2d",
+    "argc": 0,
+    "alias": "",
+    "condition": "Grid2d",
+    "dependencies": [
+      "Grid2d"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "dimcomp2",
+    "argc": 0,
+    "alias": "",
+    "condition": "dimcomp2",
+    "dependencies": [
+      "dimcomp2"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "dimcomp3",
+    "argc": 0,
+    "alias": "",
+    "condition": "dimcomp3",
+    "dependencies": [
+      "dimcomp3"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "dimcomp4",
+    "argc": 0,
+    "alias": "",
+    "condition": "dimcomp4",
+    "dependencies": [
+      "dimcomp4"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "dimcomp5",
+    "argc": 0,
+    "alias": "",
+    "condition": "dimcomp5",
+    "dependencies": [
+      "dimcomp5"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "rollingHash",
+    "argc": 0,
+    "alias": "",
+    "condition": "rollingHash",
+    "dependencies": [
+      "rollingHash"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "rollingHashSubarrays",
+    "argc": 0,
+    "alias": "",
+    "condition": "rollingHashSubarrays",
+    "dependencies": [
+      "rollingHash"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "cLtraits_identity",
+    "argc": 0,
+    "alias": "",
+    "condition": "cLtraits_identity",
+    "dependencies": [
+      "cLtraits_identity"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "cLtraits_try_make_signed",
+    "argc": 0,
+    "alias": "",
+    "condition": "cLtraits_try_make_signed",
+    "dependencies": [
+      "cLtraits_try_make_signed"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "cLtraits_common_type",
+    "argc": 0,
+    "alias": "",
+    "condition": "cLtraits_common_type",
+    "dependencies": [
+      "cLtraits_common_type"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Modint",
+    "argc": 0,
+    "alias": "",
+    "condition": "Modint",
+    "dependencies": [
+      "Modint"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "modint",
+    "argc": 0,
+    "alias": "",
+    "condition": "modint",
+    "dependencies": [
+      "modint"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Mint",
+    "argc": 0,
+    "alias": "",
+    "condition": "Mint",
+    "dependencies": [
+      "Mint"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "mint",
+    "argc": 0,
+    "alias": "",
+    "condition": "mint",
+    "dependencies": [
+      "mint"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Comb",
+    "argc": 0,
+    "alias": "",
+    "condition": "Comb",
+    "dependencies": [
+      "Comb"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Polynomial",
+    "argc": 0,
+    "alias": "",
+    "condition": "Polynomial",
+    "dependencies": [
+      "Polynomial"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "unionFind",
+    "argc": 0,
+    "alias": "",
+    "condition": "unionFind",
+    "dependencies": [
+      "unionFind"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "weightedUnionFind",
+    "argc": 0,
+    "alias": "",
+    "condition": "weightedUnionFind",
+    "dependencies": [
+      "weightedUnionFind"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "rollbackUnionFind",
+    "argc": 0,
+    "alias": "",
+    "condition": "rollbackUnionFind",
+    "dependencies": [
+      "rollbackUnionFind"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "DijkstraHeap",
+    "argc": 0,
+    "alias": "",
+    "condition": "DijkstraHeap",
+    "dependencies": [
+      "DijkstraHeap"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "fenwick",
+    "argc": 0,
+    "alias": "",
+    "condition": "fenwick",
+    "dependencies": [
+      "fenwick"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "fenwick_xor",
+    "argc": 0,
+    "alias": "",
+    "condition": "fenwick_xor",
+    "dependencies": [
+      "fenwick_xor"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "segtree",
+    "argc": 0,
+    "alias": "",
+    "condition": "segtree",
+    "dependencies": [
+      "segtree"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "segtree_Change_Sum",
+    "argc": 0,
+    "alias": "",
+    "condition": "segtree_Change_Sum",
+    "dependencies": [
+      "segtree_Change_Sum"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "graph",
+    "argc": 0,
+    "alias": "",
+    "condition": "graph",
+    "dependencies": [
+      "graph"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "wgraph",
+    "argc": 0,
+    "alias": "",
+    "condition": "wgraph",
+    "dependencies": [
+      "wgraph"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "maxflow",
+    "argc": 0,
+    "alias": "",
+    "condition": "maxflow",
+    "dependencies": [
+      "maxflow"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "minCostFlow",
+    "argc": 0,
+    "alias": "",
+    "condition": "minCostFlow",
+    "dependencies": [
+      "minCostFlow"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Arr1d",
+    "argc": 0,
+    "alias": "",
+    "condition": "Arr1d",
+    "dependencies": [
+      "Arr1d"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Arr2d",
+    "argc": 0,
+    "alias": "",
+    "condition": "Arr2d",
+    "dependencies": [
+      "Arr2d"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "rangeTree2d",
+    "argc": 0,
+    "alias": "",
+    "condition": "rangeTree2d",
+    "dependencies": [
+      "rangeTree2d"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "rangeTree2d_nw",
+    "argc": 0,
+    "alias": "",
+    "condition": "rangeTree2d_nw",
+    "dependencies": [
+      "rangeTree2d_nw"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "rangeTree2d_pf",
+    "argc": 0,
+    "alias": "",
+    "condition": "rangeTree2d_pf",
+    "dependencies": [
+      "rangeTree2d_pf"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "HashMap",
+    "argc": 0,
+    "alias": "",
+    "condition": "HashMap",
+    "dependencies": [
+      "HashMap"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "subsetSum",
+    "argc": 0,
+    "alias": "",
+    "condition": "subsetSum",
+    "dependencies": [
+      "subsetSum"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "subsetSumS",
+    "argc": 0,
+    "alias": "",
+    "condition": "subsetSumS",
+    "dependencies": [
+      "subsetSumS"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "subsetSumSD",
+    "argc": 0,
+    "alias": "",
+    "condition": "subsetSumSD",
+    "dependencies": [
+      "subsetSumSD"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "Point2d",
+    "argc": 0,
+    "alias": "",
+    "condition": "Point2d",
+    "dependencies": [
+      "Point2d"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "opt01SubsetSum_brute",
+    "argc": 0,
+    "alias": "",
+    "condition": "opt01SubsetSum_brute",
+    "dependencies": [
+      "opt01SubsetSum_brute"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "opt01SubsetSum_mim",
+    "argc": 0,
+    "alias": "",
+    "condition": "opt01SubsetSum_mim",
+    "dependencies": [
+      "opt01SubsetSum_mim"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "opt01SubsetSum_sdp",
+    "argc": 0,
+    "alias": "",
+    "condition": "opt01SubsetSum_sdp",
+    "dependencies": [
+      "opt01SubsetSum_sdp"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "opt01SubsetSum",
+    "argc": 0,
+    "alias": "",
+    "condition": "opt01SubsetSum",
+    "dependencies": [
+      "opt01SubsetSum"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "opt01SubsetSumF_brute",
+    "argc": 0,
+    "alias": "",
+    "condition": "opt01SubsetSumF_brute",
+    "dependencies": [
+      "opt01SubsetSumF_brute"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "opt01SubsetSumF_mim",
+    "argc": 0,
+    "alias": "",
+    "condition": "opt01SubsetSumF_mim",
+    "dependencies": [
+      "opt01SubsetSumF_mim"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "opt01SubsetSumF_sdp",
+    "argc": 0,
+    "alias": "",
+    "condition": "opt01SubsetSumF_sdp",
+    "dependencies": [
+      "opt01SubsetSumF_sdp"
+    ],
+    "subargc": 0
+  },
+  {
+    "name": "opt01SubsetSumF",
+    "argc": 0,
+    "alias": "",
+    "condition": "opt01SubsetSumF",
+    "dependencies": [
+      "opt01SubsetSumF"
+    ],
+    "subargc": 0
+  }
+]
